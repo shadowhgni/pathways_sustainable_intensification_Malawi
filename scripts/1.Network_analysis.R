@@ -881,8 +881,7 @@ if(nrow(all_lookups) > 0) {
 # SECTION 20: HTML INDEX - SAVED TO ../output/
 # ==============================================================================
 
-# html_index <- file.path(dir_output, "index.html")
-html_index <- "../index.html"
+html_index <- file.path(dir_output, "index.html")
 html_files <- list.files(dir_output, pattern = "3D_network_.*\\.html$", full.names = FALSE)
 
 if(length(html_files) > 0) {
