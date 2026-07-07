@@ -1,0 +1,694 @@
+Mechanism,Attribute,n
+capital intensity,access to education,2
+capital intensity,agri-trade dynamics,2
+capital intensity,agrof.,8
+capital intensity,asset own.,10
+capital intensity,breed change,2
+capital intensity,cap. bui.,10
+capital intensity,cap. inve.,4
+capital intensity,cis,4
+capital intensity,cons. agric.,6
+capital intensity,context-specific interventions,2
+capital intensity,cred. acc,12
+capital intensity,cro. cha.,4
+capital intensity,cro. div.,6
+capital intensity,crop specialization,2
+capital intensity,crop water management,2
+capital intensity,economic incentives,2
+capital intensity,ext. serv.,16
+capital intensity,far. div.,2
+capital intensity,farm cons.,4
+capital intensity,farm size,2
+capital intensity,fert. use,22
+capital intensity,herbicides,2
+capital intensity,imp. var.,10
+capital intensity,inc. div.,4
+capital intensity,income,2
+capital intensity,information availability,2
+capital intensity,infr,8
+capital intensity,input levels,2
+capital intensity,input use,2
+capital intensity,inputs,2
+capital intensity,inter.,8
+capital intensity,irr. mgmt.,6
+capital intensity,isfm,2
+capital intensity,know. intv.,2
+capital intensity,lab. dyn.,24
+capital intensity,land,14
+capital intensity,land fragmentation,2
+capital intensity,land size,2
+capital intensity,leg. int.,8
+capital intensity,liv. int.,6
+capital intensity,liv. man.,2
+capital intensity,mechanization,2
+capital intensity,mkt acc,12
+capital intensity,mulch,2
+capital intensity,mulch.,2
+capital intensity,non-farm income,2
+capital intensity,off. far. inc.,4
+capital intensity,policy,8
+capital intensity,resid. mgmt.,2
+capital intensity,rot.,6
+capital intensity,rue,8
+capital intensity,seed,6
+capital intensity,soc. net.,8
+capital intensity,soc. net.s,2
+capital intensity,sowing date,2
+capital intensity,subsidies,14
+capital intensity,timing of planting,2
+capital intensity,transaction cost,6
+capital intensity,zero tillage,2
+cooperation,agrof.,4
+cooperation,asset own.,6
+cooperation,cap. bui.,14
+cooperation,cis,6
+cooperation,cons. agric.,6
+cooperation,cred. acc,4
+cooperation,cro. div.,4
+cooperation,crop specialization,2
+cooperation,economic incentives,4
+cooperation,ext. serv.,10
+cooperation,farm size,2
+cooperation,farmer decision-making,2
+cooperation,fert. use,8
+cooperation,gender dynamics,2
+cooperation,imp. var.,4
+cooperation,information availability,2
+cooperation,infr,6
+cooperation,inter.,2
+cooperation,ipm,2
+cooperation,irr. mgmt.,2
+cooperation,lab. dyn.,4
+cooperation,land,4
+cooperation,leg. int.,4
+cooperation,liv. int.,6
+cooperation,liv. man.,2
+cooperation,mechanization,2
+cooperation,mkt acc,18
+cooperation,off. far. inc.,2
+cooperation,policy,6
+cooperation,resid. mgmt.,2
+cooperation,rue,2
+cooperation,seed,4
+cooperation,soc. net.,6
+cooperation,soc. net.s,2
+cooperation,subsidies,4
+cooperation,transaction cost,2
+crop/breed change,access to education,3
+crop/breed change,agrof.,3
+crop/breed change,asset own.,6
+crop/breed change,basin planting,3
+crop/breed change,breed change,3
+crop/breed change,cap. bui.,15
+crop/breed change,cis,6
+crop/breed change,cons. agric.,24
+crop/breed change,context-specific interventions,3
+crop/breed change,cred. acc,12
+crop/breed change,cro. cha.,6
+crop/breed change,cro. div.,27
+crop/breed change,crop specialization,3
+crop/breed change,direct seeding,3
+crop/breed change,economic incentives,6
+crop/breed change,ext. serv.,15
+crop/breed change,far. div.,3
+crop/breed change,farm income,3
+crop/breed change,farm size,3
+crop/breed change,farmer decision-making,3
+crop/breed change,fert. use,36
+crop/breed change,gender dynamics,3
+crop/breed change,grain yield,3
+crop/breed change,herbicides,3
+crop/breed change,imp. var.,24
+crop/breed change,inc. div.,3
+crop/breed change,income,3
+crop/breed change,infr,9
+crop/breed change,input levels,3
+crop/breed change,input use,3
+crop/breed change,inputs,6
+crop/breed change,inter.,12
+crop/breed change,ipm,3
+crop/breed change,irr. mgmt.,6
+crop/breed change,lab. dyn.,24
+crop/breed change,land,3
+crop/breed change,land mgmt.,3
+crop/breed change,land suit.,6
+crop/breed change,leg. int.,30
+crop/breed change,liv. int.,15
+crop/breed change,liv. man.,6
+crop/breed change,mechanization,3
+crop/breed change,mkt acc,21
+crop/breed change,mulch.,3
+crop/breed change,non-farm income,3
+crop/breed change,off. far. inc.,3
+crop/breed change,org. fert.,3
+crop/breed change,policy,3
+crop/breed change,resid. mgmt.,3
+crop/breed change,rot.,12
+crop/breed change,rue,9
+crop/breed change,seed,12
+crop/breed change,soc. net.,3
+crop/breed change,sowing date,3
+crop/breed change,subsidies,15
+crop/breed change,timing of planting,3
+crop/breed change,zero tillage,3
+farm consolidation,agrof.,2
+farm consolidation,asset own.,4
+farm consolidation,cap. bui.,2
+farm consolidation,cap. inve.,2
+farm consolidation,cis,2
+farm consolidation,cons. agric.,2
+farm consolidation,context-specific interventions,2
+farm consolidation,cred. acc,2
+farm consolidation,cro. div.,6
+farm consolidation,ext. serv.,6
+farm consolidation,far. div.,2
+farm consolidation,farm cons.,4
+farm consolidation,fert. use,6
+farm consolidation,imp. var.,2
+farm consolidation,income,2
+farm consolidation,inputs,2
+farm consolidation,irr. mgmt.,2
+farm consolidation,lab. dyn.,10
+farm consolidation,land,8
+farm consolidation,land fragmentation,2
+farm consolidation,land size,2
+farm consolidation,leg. int.,4
+farm consolidation,liv. int.,4
+farm consolidation,liv. man.,2
+farm consolidation,mkt acc,4
+farm consolidation,non-farm income,2
+farm consolidation,off. far. inc.,2
+farm consolidation,resid. mgmt.,2
+farm consolidation,rot.,4
+farm consolidation,rue,4
+farm consolidation,soc. net.,2
+farm consolidation,subsidies,4
+farm diversification,access to education,2
+farm diversification,agrof.,10
+farm diversification,asset own.,2
+farm diversification,cap. bui.,10
+farm diversification,cis,6
+farm diversification,cons. agric.,18
+farm diversification,context-specific interventions,2
+farm diversification,cred. acc,4
+farm diversification,cro. cha.,2
+farm diversification,cro. div.,26
+farm diversification,economic incentives,6
+farm diversification,ext. serv.,14
+farm diversification,far. div.,2
+farm diversification,farm cons.,2
+farm diversification,farm income,2
+farm diversification,farm size,2
+farm diversification,farmer decision-making,2
+farm diversification,fert. use,32
+farm diversification,gender dynamics,2
+farm diversification,grain yield,2
+farm diversification,herbicides,2
+farm diversification,imp. var.,8
+farm diversification,inc. div.,2
+farm diversification,input levels,2
+farm diversification,input use,2
+farm diversification,inputs,4
+farm diversification,inter.,14
+farm diversification,ipm,2
+farm diversification,isfm,2
+farm diversification,know. intv.,2
+farm diversification,lab. dyn.,14
+farm diversification,land,4
+farm diversification,land mgmt.,2
+farm diversification,land suit.,8
+farm diversification,leg. int.,32
+farm diversification,liv. int.,10
+farm diversification,liv. man.,6
+farm diversification,mkt acc,12
+farm diversification,mulch,2
+farm diversification,mulch.,4
+farm diversification,non-farm income,2
+farm diversification,off. far. inc.,4
+farm diversification,org. fert.,4
+farm diversification,policy,2
+farm diversification,resid. mgmt.,4
+farm diversification,rot.,20
+farm diversification,rue,2
+farm diversification,seed,2
+farm diversification,soc. net.,4
+farm diversification,soc. net.s,2
+farm diversification,striga control,2
+farm diversification,subsidies,6
+farm diversification,timing of planting,2
+farm diversification,weedmg mt.,4
+farm diversification,zero tillage,2
+farm specialisation,agrof.,2
+farm specialisation,asset own.,4
+farm specialisation,cap. bui.,10
+farm specialisation,cons. agric.,10
+farm specialisation,context-specific interventions,2
+farm specialisation,cred. acc,10
+farm specialisation,cro. cha.,2
+farm specialisation,cro. div.,18
+farm specialisation,crop specialization,2
+farm specialisation,crop water management,2
+farm specialisation,economic incentives,2
+farm specialisation,ext. serv.,10
+farm specialisation,far. div.,2
+farm specialisation,farm size,2
+farm specialisation,farmer decision-making,2
+farm specialisation,fert. use,20
+farm specialisation,gender dynamics,2
+farm specialisation,herbicides,2
+farm specialisation,imp. var.,14
+farm specialisation,inc. div.,4
+farm specialisation,income,2
+farm specialisation,infr,4
+farm specialisation,input levels,2
+farm specialisation,input use,2
+farm specialisation,inputs,4
+farm specialisation,inter.,4
+farm specialisation,irr. mgmt.,6
+farm specialisation,lab. dyn.,14
+farm specialisation,land,4
+farm specialisation,leg. int.,18
+farm specialisation,liv. int.,10
+farm specialisation,liv. man.,6
+farm specialisation,mechanization,2
+farm specialisation,mkt acc,14
+farm specialisation,non-farm income,2
+farm specialisation,off. far. inc.,4
+farm specialisation,org. fert.,2
+farm specialisation,rot.,10
+farm specialisation,rue,10
+farm specialisation,seed,4
+farm specialisation,soc. net.,2
+farm specialisation,soc. net.s,2
+farm specialisation,sowing date,2
+farm specialisation,subsidies,6
+farm specialisation,timing of planting,2
+farm specialisation,transaction cost,2
+income diversification,asset own.,6
+income diversification,cap. bui.,8
+income diversification,cis,4
+income diversification,cons. agric.,2
+income diversification,context-specific interventions,2
+income diversification,cred. acc,8
+income diversification,cro. cha.,2
+income diversification,cro. div.,16
+income diversification,economic incentives,4
+income diversification,ext. serv.,4
+income diversification,far. div.,6
+income diversification,farm cons.,2
+income diversification,farm income,2
+income diversification,farmer decision-making,2
+income diversification,fert. use,20
+income diversification,grain yield,2
+income diversification,imp. var.,6
+income diversification,inc. div.,4
+income diversification,income,2
+income diversification,information availability,2
+income diversification,inputs,2
+income diversification,inter.,2
+income diversification,ipm,2
+income diversification,lab. dyn.,12
+income diversification,land,6
+income diversification,land mgmt.,2
+income diversification,land suit.,4
+income diversification,leg. int.,18
+income diversification,liv. int.,6
+income diversification,liv. man.,4
+income diversification,mkt acc,10
+income diversification,non-farm income,4
+income diversification,off. far. inc.,2
+income diversification,org. fert.,2
+income diversification,policy,4
+income diversification,resid. mgmt.,2
+income diversification,rot.,8
+income diversification,seed,2
+income diversification,soc. net.,2
+income diversification,soil fertility enhancement,2
+income diversification,subsidies,6
+income diversification,transaction cost,2
+information management,access to education,2
+information management,agrof.,2
+information management,asset own.,10
+information management,cap. bui.,12
+information management,cap. inve.,2
+information management,cis,4
+information management,cons. agric.,8
+information management,context-specific interventions,2
+information management,cred. acc,6
+information management,cro. cha.,2
+information management,cro. div.,16
+information management,crop suitability,2
+information management,economic incentives,6
+information management,ext. serv.,16
+information management,far. div.,6
+information management,farm cons.,2
+information management,farm size,2
+information management,farmer training,2
+information management,fert. use,12
+information management,gender dynamics,2
+information management,herbicides,2
+information management,ict,2
+information management,imp. var.,10
+information management,inc. div.,2
+information management,income,2
+information management,information access,2
+information management,information availability,2
+information management,infr,2
+information management,input use,2
+information management,inputs,4
+information management,inter.,10
+information management,ipm,2
+information management,irr. mgmt.,2
+information management,know. intv.,2
+information management,lab. dyn.,16
+information management,land,8
+information management,land size,2
+information management,land suit.,4
+information management,leg. int.,10
+information management,liv. int.,6
+information management,liv. man.,6
+information management,mkt acc,14
+information management,non-farm income,2
+information management,off. far. inc.,4
+information management,policy,4
+information management,resid. mgmt.,2
+information management,rot.,6
+information management,seed,4
+information management,soc. net.,6
+information management,soc. net.s,2
+information management,soil fertility enhancement,2
+information management,sowing date,2
+information management,subsidies,4
+information management,timing of planting,2
+information management,transaction cost,2
+input-use intensity,access to education,2
+input-use intensity,agri-trade dynamics,2
+input-use intensity,agrof.,12
+input-use intensity,asset own.,6
+input-use intensity,breed change,2
+input-use intensity,cap. bui.,10
+input-use intensity,cap. inve.,4
+input-use intensity,cis,4
+input-use intensity,cons. agric.,14
+input-use intensity,context-specific interventions,2
+input-use intensity,cred. acc,10
+input-use intensity,cro. cha.,4
+input-use intensity,cro. div.,18
+input-use intensity,crop specialization,2
+input-use intensity,crop water management,2
+input-use intensity,economic incentives,4
+input-use intensity,ext. serv.,16
+input-use intensity,far. div.,2
+input-use intensity,farm cons.,4
+input-use intensity,farm income,2
+input-use intensity,farm size,2
+input-use intensity,fert.,2
+input-use intensity,fert. use,38
+input-use intensity,gender dynamics,2
+input-use intensity,grain yield,2
+input-use intensity,herbicides,2
+input-use intensity,imp. var.,14
+input-use intensity,inc. div.,2
+input-use intensity,income,2
+input-use intensity,infr,6
+input-use intensity,input levels,2
+input-use intensity,input use,2
+input-use intensity,inputs,4
+input-use intensity,inter.,12
+input-use intensity,irr. mgmt.,6
+input-use intensity,isfm,4
+input-use intensity,know. intv.,2
+input-use intensity,lab. dyn.,26
+input-use intensity,land,10
+input-use intensity,land fragmentation,2
+input-use intensity,land mgmt.,2
+input-use intensity,land size,2
+input-use intensity,land suit.,6
+input-use intensity,leg. int.,26
+input-use intensity,liv. int.,6
+input-use intensity,liv. man.,6
+input-use intensity,mechanization,2
+input-use intensity,mkt acc,10
+input-use intensity,mulch,2
+input-use intensity,mulch.,2
+input-use intensity,non-farm income,2
+input-use intensity,off. far. inc.,4
+input-use intensity,org. fert.,4
+input-use intensity,policy,4
+input-use intensity,resid. mgmt.,4
+input-use intensity,rot.,16
+input-use intensity,rue,12
+input-use intensity,seed,8
+input-use intensity,soc. net.,4
+input-use intensity,soc. net.s,2
+input-use intensity,sowing date,2
+input-use intensity,striga control,2
+input-use intensity,subsidies,14
+input-use intensity,timing of planting,2
+input-use intensity,weedmg mt.,6
+input-use intensity,zero tillage,2
+knowledge intensity change,access to education,2
+knowledge intensity change,agri-trade dynamics,2
+knowledge intensity change,agrof.,10
+knowledge intensity change,asset own.,8
+knowledge intensity change,basin planting,2
+knowledge intensity change,cap. bui.,18
+knowledge intensity change,cap. inve.,4
+knowledge intensity change,cis,8
+knowledge intensity change,cons. agric.,12
+knowledge intensity change,cred. acc,4
+knowledge intensity change,cro. cha.,2
+knowledge intensity change,cro. div.,14
+knowledge intensity change,direct seeding,2
+knowledge intensity change,economic incentives,6
+knowledge intensity change,ext. serv.,20
+knowledge intensity change,far. div.,2
+knowledge intensity change,farm cons.,4
+knowledge intensity change,farm income,2
+knowledge intensity change,farm size,2
+knowledge intensity change,farmer decision-making,2
+knowledge intensity change,farmer training,2
+knowledge intensity change,fert. use,26
+knowledge intensity change,gender dynamics,2
+knowledge intensity change,grain yield,2
+knowledge intensity change,ict,2
+knowledge intensity change,imp. var.,4
+knowledge intensity change,inc. div.,2
+knowledge intensity change,information access,2
+knowledge intensity change,information availability,2
+knowledge intensity change,infr,2
+knowledge intensity change,inter.,12
+knowledge intensity change,ipm,2
+knowledge intensity change,isfm,2
+knowledge intensity change,know. intv.,2
+knowledge intensity change,lab. dyn.,18
+knowledge intensity change,land,6
+knowledge intensity change,land mgmt.,2
+knowledge intensity change,land size,2
+knowledge intensity change,land suit.,2
+knowledge intensity change,leg. int.,22
+knowledge intensity change,liv. int.,6
+knowledge intensity change,liv. man.,4
+knowledge intensity change,mkt acc,20
+knowledge intensity change,mulch,2
+knowledge intensity change,mulch.,2
+knowledge intensity change,non-farm income,2
+knowledge intensity change,off. far. inc.,2
+knowledge intensity change,org. fert.,2
+knowledge intensity change,policy,10
+knowledge intensity change,resid. mgmt.,4
+knowledge intensity change,rot.,10
+knowledge intensity change,rue,2
+knowledge intensity change,seed,8
+knowledge intensity change,soc. net.,8
+knowledge intensity change,soc. net.s,2
+knowledge intensity change,soil fertility enhancement,2
+knowledge intensity change,sowing date,2
+knowledge intensity change,striga control,2
+knowledge intensity change,subsidies,8
+knowledge intensity change,transaction cost,4
+knowledge intensity change,zero tillage,2
+labour intensity,access to education,2
+labour intensity,agri-trade dynamics,2
+labour intensity,agrof.,6
+labour intensity,asset own.,6
+labour intensity,basin planting,2
+labour intensity,cap. bui.,10
+labour intensity,cap. inve.,2
+labour intensity,cis,2
+labour intensity,cons. agric.,12
+labour intensity,context-specific interventions,2
+labour intensity,cred. acc,8
+labour intensity,cro. div.,10
+labour intensity,direct seeding,2
+labour intensity,economic incentives,2
+labour intensity,ext. serv.,6
+labour intensity,far. div.,2
+labour intensity,farm cons.,4
+labour intensity,farmer decision-making,2
+labour intensity,fert.,2
+labour intensity,fert. use,18
+labour intensity,herbicides,2
+labour intensity,imp. var.,8
+labour intensity,inc. div.,2
+labour intensity,income,2
+labour intensity,infr,2
+labour intensity,input levels,2
+labour intensity,input use,2
+labour intensity,inputs,2
+labour intensity,inter.,8
+labour intensity,isfm,2
+labour intensity,lab. dyn.,32
+labour intensity,land,6
+labour intensity,land suit.,2
+labour intensity,leg. int.,10
+labour intensity,liv. int.,4
+labour intensity,liv. man.,4
+labour intensity,mkt acc,6
+labour intensity,non-farm income,4
+labour intensity,off. far. inc.,2
+labour intensity,org. fert.,2
+labour intensity,policy,6
+labour intensity,rot.,6
+labour intensity,rue,4
+labour intensity,seed,6
+labour intensity,soc. net.,4
+labour intensity,sowing date,2
+labour intensity,subsidies,6
+labour intensity,timing of planting,2
+labour intensity,transaction cost,4
+labour intensity,weedmg mt.,4
+land management intensity,access to education,1
+land management intensity,agri-trade dynamics,1
+land management intensity,agrof.,6
+land management intensity,asset own.,3
+land management intensity,basin planting,1
+land management intensity,breed change,1
+land management intensity,cap. bui.,7
+land management intensity,cap. inve.,2
+land management intensity,cis,4
+land management intensity,cons. agric.,11
+land management intensity,context-specific interventions,1
+land management intensity,cred. acc,6
+land management intensity,cro. cha.,2
+land management intensity,cro. div.,13
+land management intensity,crop specialization,1
+land management intensity,crop water management,1
+land management intensity,direct seeding,1
+land management intensity,economic incentives,3
+land management intensity,ext. serv.,7
+land management intensity,far. div.,2
+land management intensity,farm cons.,2
+land management intensity,farm income,1
+land management intensity,fert.,1
+land management intensity,fert. use,21
+land management intensity,gender dynamics,1
+land management intensity,grain yield,1
+land management intensity,herbicides,1
+land management intensity,imp. var.,5
+land management intensity,inc. div.,2
+land management intensity,income,1
+land management intensity,information availability,1
+land management intensity,infr,3
+land management intensity,input levels,1
+land management intensity,input use,1
+land management intensity,inputs,2
+land management intensity,inter.,8
+land management intensity,irr. mgmt.,3
+land management intensity,isfm,2
+land management intensity,know. intv.,1
+land management intensity,lab. dyn.,15
+land management intensity,land,7
+land management intensity,land fragmentation,1
+land management intensity,land mgmt.,1
+land management intensity,land size,1
+land management intensity,land suit.,4
+land management intensity,leg. int.,16
+land management intensity,liv. int.,4
+land management intensity,liv. man.,4
+land management intensity,mechanization,1
+land management intensity,mkt acc,9
+land management intensity,mulch,1
+land management intensity,mulch.,2
+land management intensity,non-farm income,2
+land management intensity,off. far. inc.,2
+land management intensity,org. fert.,2
+land management intensity,policy,4
+land management intensity,resid. mgmt.,2
+land management intensity,rot.,11
+land management intensity,rue,6
+land management intensity,seed,4
+land management intensity,soc. net.,2
+land management intensity,soc. net.s,1
+land management intensity,soil fertility enhancement,1
+land management intensity,sowing date,1
+land management intensity,striga control,1
+land management intensity,subsidies,9
+land management intensity,timing of planting,1
+land management intensity,transaction cost,1
+land management intensity,weedmg mt.,3
+land management intensity,zero tillage,1
+regional specialisation,agri-trade dynamics,3
+regional specialisation,cap. bui.,9
+regional specialisation,cap. inve.,3
+regional specialisation,cons. agric.,3
+regional specialisation,cred. acc,3
+regional specialisation,cro. div.,6
+regional specialisation,crop specialization,3
+regional specialisation,far. div.,3
+regional specialisation,farmer decision-making,3
+regional specialisation,fert. use,9
+regional specialisation,imp. var.,9
+regional specialisation,infr,6
+regional specialisation,inputs,3
+regional specialisation,inter.,3
+regional specialisation,ipm,3
+regional specialisation,irr. mgmt.,3
+regional specialisation,lab. dyn.,9
+regional specialisation,land,6
+regional specialisation,land suit.,3
+regional specialisation,liv. man.,3
+regional specialisation,mechanization,3
+regional specialisation,mkt acc,6
+regional specialisation,non-farm income,3
+regional specialisation,policy,6
+regional specialisation,subsidies,3
+regional specialisation,weedmg mt.,3
+vertical integration,agrof.,2
+vertical integration,asset own.,4
+vertical integration,breed change,2
+vertical integration,cap. bui.,6
+vertical integration,cons. agric.,2
+vertical integration,cred. acc,4
+vertical integration,cro. cha.,4
+vertical integration,cro. div.,2
+vertical integration,crop specialization,2
+vertical integration,economic incentives,2
+vertical integration,fert.,2
+vertical integration,fert. use,8
+vertical integration,herbicides,2
+vertical integration,imp. var.,6
+vertical integration,inc. div.,2
+vertical integration,income,2
+vertical integration,infr,8
+vertical integration,input use,2
+vertical integration,inter.,2
+vertical integration,ipm,2
+vertical integration,irr. mgmt.,2
+vertical integration,isfm,2
+vertical integration,lab. dyn.,8
+vertical integration,land,2
+vertical integration,leg. int.,2
+vertical integration,liv. int.,2
+vertical integration,liv. man.,2
+vertical integration,mechanization,2
+vertical integration,mkt acc,10
+vertical integration,policy,6
+vertical integration,rot.,2
+vertical integration,rue,4
+vertical integration,seed,4
+vertical integration,soc. net.,2
+vertical integration,subsidies,12
+vertical integration,timing of planting,2
+vertical integration,transaction cost,4
+vertical integration,weedmg mt.,2

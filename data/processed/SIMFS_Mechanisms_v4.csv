@@ -1,0 +1,979 @@
+Author,Mechanism,Replication,Attribute,M_code,A_code,Year,SI_Domain,n
+"jolex et al.,2022",capital intensity,2,extension service,1,27,2022,economic,16
+"jolex et al.,2022",capital intensity,2,extension service,1,27,2022,productivity,16
+"jolex et al.,2022",input-use intensity,2,extension service,9,27,2022,productivity,16
+"jolex et al.,2022",input-use intensity,2,extension service,9,27,2022,environment,16
+"jolex et al.,2022",knowledge intensity change,2,extension service,10,27,2022,human condition,20
+"jolex et al.,2022",knowledge intensity change,2,extension service,10,27,2022,social,20
+"jolex et al.,2022",information management,2,extension service,7,27,2022,social,16
+"jolex et al.,2022",information management,2,extension service,7,27,2022,economic,16
+"abid et al., 2020",capital intensity,2,extension service,1,27,2020,economic,16
+"abid et al., 2020",capital intensity,2,extension service,1,27,2020,productivity,16
+"abid et al., 2020",input-use intensity,2,extension service,9,27,2020,productivity,16
+"abid et al., 2020",input-use intensity,2,extension service,9,27,2020,environment,16
+"abid et al., 2020",knowledge intensity change,2,market access,10,76,2020,human condition,20
+"abid et al., 2020",knowledge intensity change,2,market access,10,76,2020,social,20
+"abid et al., 2020",knowledge intensity change,2,extension service,10,27,2020,human condition,20
+"abid et al., 2020",knowledge intensity change,2,extension service,10,27,2020,social,20
+"abid et al., 2020",information management,2,extension service,7,27,2020,social,16
+"abid et al., 2020",information management,2,extension service,7,27,2020,economic,16
+"abid et al., 2020",cooperation,2,market access,2,76,2020,social,18
+"abid et al., 2020",cooperation,2,market access,2,76,2020,economic,18
+"amadu, mcnamara and miller, 2020",land management intensity,1,labour dynamics,12,63,2020,environment,15
+"amadu, mcnamara and miller, 2020",labour intensity,1,labour dynamics,11,63,2020,economic,32
+"amadu, mcnamara and miller, 2020",labour intensity,1,labour dynamics,11,63,2020,human condition,32
+"amadu, mcnamara and miller, 2020",knowledge intensity change,1,labour dynamics,10,63,2020,human condition,18
+"amadu, mcnamara and miller, 2020",knowledge intensity change,1,labour dynamics,10,63,2020,social,18
+"amadu, mcnamara and miller, 2020",knowledge intensity change,1,extension service,10,27,2020,human condition,20
+"amadu, mcnamara and miller, 2020",knowledge intensity change,1,extension service,10,27,2020,social,20
+"amadu, mcnamara and miller, 2020",capital intensity,3,labour dynamics,1,63,2020,economic,24
+"amadu, mcnamara and miller, 2020",capital intensity,3,labour dynamics,1,63,2020,productivity,24
+"amadu, mcnamara and miller, 2020",capital intensity,3,extension service,1,27,2020,economic,16
+"amadu, mcnamara and miller, 2020",capital intensity,3,extension service,1,27,2020,productivity,16
+"amadu, mcnamara and miller, 2020",input-use intensity,3,labour dynamics,9,63,2020,productivity,26
+"amadu, mcnamara and miller, 2020",input-use intensity,3,labour dynamics,9,63,2020,environment,26
+"amadu, mcnamara and miller, 2020",input-use intensity,3,extension service,9,27,2020,productivity,16
+"amadu, mcnamara and miller, 2020",input-use intensity,3,extension service,9,27,2020,environment,16
+"amjath-babu et al., 2016",capital intensity,1,fertilizer use,1,38,2016,economic,22
+"amjath-babu et al., 2016",capital intensity,1,fertilizer use,1,38,2016,productivity,22
+"amjath-babu et al., 2016",land management intensity,4,fertilizer use,12,38,2016,environment,21
+"amjath-babu et al., 2016",input-use intensity,4,fertilizer use,9,38,2016,productivity,38
+"amjath-babu et al., 2016",input-use intensity,4,fertilizer use,9,38,2016,environment,38
+"amjath-babu et al., 2016",farm specialisation,4,fertilizer use,6,38,2016,economic,20
+"amjath-babu et al., 2016",farm specialisation,4,fertilizer use,6,38,2016,productivity,20
+"amjath-babu et al., 2016",crop/breed change,4,subsidies,3,101,2016,productivity,15
+"amjath-babu et al., 2016",crop/breed change,4,subsidies,3,101,2016,economic,15
+"amjath-babu et al., 2016",crop/breed change,4,subsidies,3,101,2016,environment,15
+"amjath-babu et al., 2016",crop/breed change,4,fertilizer use,3,38,2016,productivity,36
+"amjath-babu et al., 2016",crop/breed change,4,fertilizer use,3,38,2016,economic,36
+"amjath-babu et al., 2016",crop/breed change,4,fertilizer use,3,38,2016,environment,36
+"amjath-babu et al., 2016",crop/breed change,4,market access,3,76,2016,productivity,21
+"amjath-babu et al., 2016",crop/breed change,4,market access,3,76,2016,economic,21
+"amjath-babu et al., 2016",crop/breed change,4,market access,3,76,2016,environment,21
+"amjath-babu et al., 2016",cooperation,4,market access,2,76,2016,social,18
+"amjath-babu et al., 2016",cooperation,4,market access,2,76,2016,economic,18
+anseeuw et al. 2016,land management intensity,2,labour dynamics,12,63,2016,environment,15
+anseeuw et al. 2016,capital intensity,2,labour dynamics,1,63,2016,economic,24
+anseeuw et al. 2016,capital intensity,2,labour dynamics,1,63,2016,productivity,24
+anseeuw et al. 2016,labour intensity,2,labour dynamics,11,63,2016,economic,32
+anseeuw et al. 2016,labour intensity,2,labour dynamics,11,63,2016,human condition,32
+aune et al. 2014,input-use intensity,1,rotations,9,91,2014,productivity,16
+aune et al. 2014,input-use intensity,1,rotations,9,91,2014,environment,16
+aune et al. 2014,input-use intensity,1,crop diversification,9,17,2014,productivity,18
+aune et al. 2014,input-use intensity,1,crop diversification,9,17,2014,environment,18
+aune et al. 2014,farm diversification,2,conservation agriculture,5,13,2014,economic,18
+aune et al. 2014,farm diversification,2,conservation agriculture,5,13,2014,human condition,18
+aune et al. 2014,farm diversification,2,rotations,5,91,2014,economic,20
+aune et al. 2014,farm diversification,2,rotations,5,91,2014,human condition,20
+aune et al. 2014,farm diversification,2,crop diversification,5,17,2014,economic,26
+aune et al. 2014,farm diversification,2,crop diversification,5,17,2014,human condition,26
+aune et al. 2014,farm specialisation,4,crop diversification,6,17,2014,economic,18
+aune et al. 2014,farm specialisation,4,crop diversification,6,17,2014,productivity,18
+aune et al. 2014,crop/breed change,4,conservation agriculture,3,13,2014,productivity,24
+aune et al. 2014,crop/breed change,4,conservation agriculture,3,13,2014,economic,24
+aune et al. 2014,crop/breed change,4,conservation agriculture,3,13,2014,environment,24
+aune et al. 2014,crop/breed change,4,crop diversification,3,17,2014,productivity,27
+aune et al. 2014,crop/breed change,4,crop diversification,3,17,2014,economic,27
+aune et al. 2014,crop/breed change,4,crop diversification,3,17,2014,environment,27
+"berre et al., 2017",input-use intensity,1,fertilizer use,9,38,2017,productivity,38
+"berre et al., 2017",input-use intensity,1,fertilizer use,9,38,2017,environment,38
+"berre et al., 2017",input-use intensity,1,labour dynamics,9,63,2017,productivity,26
+"berre et al., 2017",input-use intensity,1,labour dynamics,9,63,2017,environment,26
+"berre et al., 2017",input-use intensity,1,crop diversification,9,18,2017,productivity,18
+"berre et al., 2017",input-use intensity,1,crop diversification,9,18,2017,environment,18
+"berre et al., 2017",land management intensity,2,fertilizer use,12,38,2017,environment,21
+"berre et al., 2017",land management intensity,2,labour dynamics,12,63,2017,environment,15
+"berre et al., 2017",labour intensity,2,fertilizer use,11,38,2017,economic,18
+"berre et al., 2017",labour intensity,2,fertilizer use,11,38,2017,human condition,18
+"berre et al., 2017",labour intensity,2,labour dynamics,11,63,2017,economic,32
+"berre et al., 2017",labour intensity,2,labour dynamics,11,63,2017,human condition,32
+"berre et al., 2017",farm specialisation,2,fertilizer use,6,38,2017,economic,20
+"berre et al., 2017",farm specialisation,2,fertilizer use,6,38,2017,productivity,20
+"berre et al., 2017",farm specialisation,2,crop diversification,6,18,2017,economic,18
+"berre et al., 2017",farm specialisation,2,crop diversification,6,18,2017,productivity,18
+"berre et al., 2017",farm diversification,2,fertilizer use,5,38,2017,economic,32
+"berre et al., 2017",farm diversification,2,fertilizer use,5,38,2017,human condition,32
+"berre et al., 2017",farm diversification,2,crop diversification,5,18,2017,economic,26
+"berre et al., 2017",farm diversification,2,crop diversification,5,18,2017,human condition,26
+"berre et al., 2017",capital intensity,4,fertilizer use,1,38,2017,economic,22
+"berre et al., 2017",capital intensity,4,fertilizer use,1,38,2017,productivity,22
+"berre et al., 2017",capital intensity,4,labour dynamics,1,63,2017,economic,24
+"berre et al., 2017",capital intensity,4,labour dynamics,1,63,2017,productivity,24
+"berre et al., 2017",income diversification,4,fertilizer use,8,38,2017,economic,20
+"berre et al., 2017",income diversification,4,fertilizer use,8,38,2017,social,20
+"berre et al., 2017",income diversification,4,crop diversification,8,18,2017,economic,16
+"berre et al., 2017",income diversification,4,crop diversification,8,18,2017,social,16
+"berre et al., 2017",information management,4,labour dynamics,7,63,2017,social,16
+"berre et al., 2017",information management,4,labour dynamics,7,63,2017,economic,16
+"berre et al., 2017",information management,4,crop diversification,7,18,2017,social,16
+"berre et al., 2017",information management,4,crop diversification,7,18,2017,economic,16
+"berre et al., 2017",crop/breed change,4,fertilizer use,3,38,2017,productivity,36
+"berre et al., 2017",crop/breed change,4,fertilizer use,3,38,2017,economic,36
+"berre et al., 2017",crop/breed change,4,fertilizer use,3,38,2017,environment,36
+"berre et al., 2017",crop/breed change,4,labour dynamics,3,63,2017,productivity,24
+"berre et al., 2017",crop/breed change,4,labour dynamics,3,63,2017,economic,24
+"berre et al., 2017",crop/breed change,4,labour dynamics,3,63,2017,environment,24
+"berre et al., 2017",crop/breed change,4,crop diversification,3,18,2017,productivity,27
+"berre et al., 2017",crop/breed change,4,crop diversification,3,18,2017,economic,27
+"berre et al., 2017",crop/breed change,4,crop diversification,3,18,2017,environment,27
+"berre et al., 2017",crop/breed change,4,livestock integration,3,73,2017,productivity,15
+"berre et al., 2017",crop/breed change,4,livestock integration,3,73,2017,economic,15
+"berre et al., 2017",crop/breed change,4,livestock integration,3,73,2017,environment,15
+"bezner kerr et al., 2019",land management intensity,2,fertilizer use,12,52,2019,environment,21
+"bezner kerr et al., 2019",input-use intensity,2,fertilizer use,9,52,2019,productivity,38
+"bezner kerr et al., 2019",input-use intensity,2,fertilizer use,9,52,2019,environment,38
+"bezner kerr et al., 2019",farm diversification,2,fertilizer use,5,52,2019,economic,32
+"bezner kerr et al., 2019",farm diversification,2,fertilizer use,5,52,2019,human condition,32
+"bezner kerr et al., 2019",income diversification,2,fertilizer use,8,52,2019,economic,20
+"bezner kerr et al., 2019",income diversification,2,fertilizer use,8,52,2019,social,20
+"bezner kerr et al., 2019",knowledge intensity change,2,fertilizer use,10,52,2019,human condition,26
+"bezner kerr et al., 2019",knowledge intensity change,2,fertilizer use,10,52,2019,social,26
+"bezner kerr et al., 2019",crop/breed change,2,fertilizer use,3,52,2019,productivity,36
+"bezner kerr et al., 2019",crop/breed change,2,fertilizer use,3,52,2019,economic,36
+"bezner kerr et al., 2019",crop/breed change,2,fertilizer use,3,52,2019,environment,36
+"bezu et al.,2014",labour intensity,1,labour dynamics,11,63,2014,economic,32
+"bezu et al.,2014",labour intensity,1,labour dynamics,11,63,2014,human condition,32
+"bezu et al.,2014",crop/breed change,1,subsidies,3,101,2014,productivity,15
+"bezu et al.,2014",crop/breed change,1,subsidies,3,101,2014,economic,15
+"bezu et al.,2014",crop/breed change,1,subsidies,3,101,2014,environment,15
+"bezu et al.,2014",crop/breed change,1,improved varieties,3,45,2014,productivity,24
+"bezu et al.,2014",crop/breed change,1,improved varieties,3,45,2014,economic,24
+"bezu et al.,2014",crop/breed change,1,improved varieties,3,45,2014,environment,24
+"bezu et al.,2014",crop/breed change,1,labour dynamics,3,63,2014,productivity,24
+"bezu et al.,2014",crop/breed change,1,labour dynamics,3,63,2014,economic,24
+"bezu et al.,2014",crop/breed change,1,labour dynamics,3,63,2014,environment,24
+"bezu et al.,2014",land management intensity,2,labour dynamics,12,63,2014,environment,15
+"bezu et al.,2014",capital intensity,2,labour dynamics,1,63,2014,economic,24
+"bezu et al.,2014",capital intensity,2,labour dynamics,1,63,2014,productivity,24
+"bezu et al.,2014",input-use intensity,2,labour dynamics,9,63,2014,productivity,26
+"bezu et al.,2014",input-use intensity,2,labour dynamics,9,63,2014,environment,26
+"bezu et al.,2014",information management,2,labour dynamics,7,63,2014,social,16
+"bezu et al.,2014",information management,2,labour dynamics,7,63,2014,economic,16
+bhatti et al. 2021,farm specialisation,2,crop diversification,6,17,2021,economic,18
+bhatti et al. 2021,farm specialisation,2,crop diversification,6,17,2021,productivity,18
+bhatti et al. 2021,farm diversification,2,crop diversification,5,17,2021,economic,26
+bhatti et al. 2021,farm diversification,2,crop diversification,5,17,2021,human condition,26
+bhatti et al. 2021,income diversification,2,crop diversification,8,17,2021,economic,16
+bhatti et al. 2021,income diversification,2,crop diversification,8,17,2021,social,16
+bhatti et al. 2021,crop/breed change,2,capacity building,3,71,2021,productivity,15
+bhatti et al. 2021,crop/breed change,2,capacity building,3,71,2021,economic,15
+bhatti et al. 2021,crop/breed change,2,capacity building,3,71,2021,environment,15
+bhatti et al. 2021,crop/breed change,2,improved varieties,3,44,2021,productivity,24
+bhatti et al. 2021,crop/breed change,2,improved varieties,3,44,2021,economic,24
+bhatti et al. 2021,crop/breed change,2,improved varieties,3,44,2021,environment,24
+bhatti et al. 2021,crop/breed change,2,crop diversification,3,17,2021,productivity,27
+bhatti et al. 2021,crop/breed change,2,crop diversification,3,17,2021,economic,27
+bhatti et al. 2021,crop/breed change,2,crop diversification,3,17,2021,environment,27
+bhatti et al. 2021,knowledge intensity change,4,capacity building,10,71,2021,human condition,18
+bhatti et al. 2021,knowledge intensity change,4,capacity building,10,71,2021,social,18
+"bouwman, andersson and giller, 2021",land management intensity,1,labour dynamics,12,63,2021,environment,15
+"bouwman, andersson and giller, 2021",capital intensity,1,labour dynamics,1,63,2021,economic,24
+"bouwman, andersson and giller, 2021",capital intensity,1,labour dynamics,1,63,2021,productivity,24
+"bouwman, andersson and giller, 2021",farm diversification,1,conservation agriculture,5,13,2021,economic,18
+"bouwman, andersson and giller, 2021",farm diversification,1,conservation agriculture,5,13,2021,human condition,18
+"bouwman, andersson and giller, 2021",farm diversification,1,rotations,5,91,2021,economic,20
+"bouwman, andersson and giller, 2021",farm diversification,1,rotations,5,91,2021,human condition,20
+"bouwman, andersson and giller, 2021",information management,1,labour dynamics,7,63,2021,social,16
+"bouwman, andersson and giller, 2021",information management,1,labour dynamics,7,63,2021,economic,16
+"bouwman, andersson and giller, 2021",input-use intensity,4,rotations,9,91,2021,productivity,16
+"bouwman, andersson and giller, 2021",input-use intensity,4,rotations,9,91,2021,environment,16
+"bouwman, andersson and giller, 2021",input-use intensity,4,labour dynamics,9,63,2021,productivity,26
+"bouwman, andersson and giller, 2021",input-use intensity,4,labour dynamics,9,63,2021,environment,26
+"bouwman, andersson and giller, 2021",labour intensity,4,labour dynamics,11,63,2021,economic,32
+"bouwman, andersson and giller, 2021",labour intensity,4,labour dynamics,11,63,2021,human condition,32
+"bouwman, andersson and giller, 2021",crop/breed change,4,conservation agriculture,3,13,2021,productivity,24
+"bouwman, andersson and giller, 2021",crop/breed change,4,conservation agriculture,3,13,2021,economic,24
+"bouwman, andersson and giller, 2021",crop/breed change,4,conservation agriculture,3,13,2021,environment,24
+"bouwman, andersson and giller, 2021",crop/breed change,4,improved varieties,3,44,2021,productivity,24
+"bouwman, andersson and giller, 2021",crop/breed change,4,improved varieties,3,44,2021,economic,24
+"bouwman, andersson and giller, 2021",crop/breed change,4,improved varieties,3,44,2021,environment,24
+"bouwman, andersson and giller, 2021",crop/breed change,4,labour dynamics,3,63,2021,productivity,24
+"bouwman, andersson and giller, 2021",crop/breed change,4,labour dynamics,3,63,2021,economic,24
+"bouwman, andersson and giller, 2021",crop/breed change,4,labour dynamics,3,63,2021,environment,24
+"burke, jayne and snapp, 2022",input-use intensity,1,rotations,9,91,2022,productivity,16
+"burke, jayne and snapp, 2022",input-use intensity,1,rotations,9,91,2022,environment,16
+"burke, jayne and snapp, 2022",input-use intensity,1,crop diversification,9,17,2022,productivity,18
+"burke, jayne and snapp, 2022",input-use intensity,1,crop diversification,9,17,2022,environment,18
+"burke, jayne and snapp, 2022",farm diversification,3,rotations,5,91,2022,economic,20
+"burke, jayne and snapp, 2022",farm diversification,3,rotations,5,91,2022,human condition,20
+"burke, jayne and snapp, 2022",farm diversification,3,crop diversification,5,17,2022,economic,26
+"burke, jayne and snapp, 2022",farm diversification,3,crop diversification,5,17,2022,human condition,26
+"chowa et al.,2013",knowledge intensity change,3,market access,10,76,2013,human condition,20
+"chowa et al.,2013",knowledge intensity change,3,market access,10,76,2013,social,20
+"chowa et al.,2013",knowledge intensity change,3,extension service,10,27,2013,human condition,20
+"chowa et al.,2013",knowledge intensity change,3,extension service,10,27,2013,social,20
+"chowa et al.,2013",information management,4,extension service,7,27,2013,social,16
+"chowa et al.,2013",information management,4,extension service,7,27,2013,economic,16
+"darko, 2016",land management intensity,1,fertilizer use,12,38,2016,environment,21
+"darko, 2016",income diversification,3,fertilizer use,8,38,2016,economic,20
+"darko, 2016",income diversification,3,fertilizer use,8,38,2016,social,20
+"defoliart, 1997",input-use intensity,2,fertilizer use,9,52,1997,productivity,38
+"defoliart, 1997",input-use intensity,2,fertilizer use,9,52,1997,environment,38
+"defoliart, 1997",farm diversification,2,fertilizer use,5,52,1997,economic,32
+"defoliart, 1997",farm diversification,2,fertilizer use,5,52,1997,human condition,32
+"defoliart, 1997",income diversification,2,fertilizer use,8,52,1997,economic,20
+"defoliart, 1997",income diversification,2,fertilizer use,8,52,1997,social,20
+"defoliart, 1997",knowledge intensity change,2,fertilizer use,10,52,1997,human condition,26
+"defoliart, 1997",knowledge intensity change,2,fertilizer use,10,52,1997,social,26
+"defoliart, 1997",land management intensity,4,fertilizer use,12,52,1997,environment,21
+"diagne and zeller ,2001",land management intensity,1,fertilizer use,12,38,2001,environment,21
+"diagne and zeller ,2001",labour intensity,1,fertilizer use,11,38,2001,economic,18
+"diagne and zeller ,2001",labour intensity,1,fertilizer use,11,38,2001,human condition,18
+"diagne and zeller ,2001",farm specialisation,1,fertilizer use,6,38,2001,economic,20
+"diagne and zeller ,2001",farm specialisation,1,fertilizer use,6,38,2001,productivity,20
+"diagne and zeller ,2001",income diversification,1,fertilizer use,8,38,2001,economic,20
+"diagne and zeller ,2001",income diversification,1,fertilizer use,8,38,2001,social,20
+"diagne and zeller ,2001",capital intensity,3,fertilizer use,1,38,2001,economic,22
+"diagne and zeller ,2001",capital intensity,3,fertilizer use,1,38,2001,productivity,22
+"dorward, chirwa and jayne, 2011",land management intensity,1,fertilizer use,12,38,2011,environment,21
+"dorward, chirwa and jayne, 2011",capital intensity,1,fertilizer use,1,38,2011,economic,22
+"dorward, chirwa and jayne, 2011",capital intensity,1,fertilizer use,1,38,2011,productivity,22
+"dorward, chirwa and jayne, 2011",input-use intensity,1,fertilizer use,9,38,2011,productivity,38
+"dorward, chirwa and jayne, 2011",input-use intensity,1,fertilizer use,9,38,2011,environment,38
+"dorward, chirwa and jayne, 2011",crop/breed change,4,subsidies,3,101,2011,productivity,15
+"dorward, chirwa and jayne, 2011",crop/breed change,4,subsidies,3,101,2011,economic,15
+"dorward, chirwa and jayne, 2011",crop/breed change,4,subsidies,3,101,2011,environment,15
+"dorward, chirwa and jayne, 2011",crop/breed change,4,fertilizer use,3,38,2011,productivity,36
+"dorward, chirwa and jayne, 2011",crop/breed change,4,fertilizer use,3,38,2011,economic,36
+"dorward, chirwa and jayne, 2011",crop/breed change,4,fertilizer use,3,38,2011,environment,36
+"dorward, chirwa and jayne, 2011",crop/breed change,4,improved varieties,3,42,2011,productivity,24
+"dorward, chirwa and jayne, 2011",crop/breed change,4,improved varieties,3,42,2011,economic,24
+"dorward, chirwa and jayne, 2011",crop/breed change,4,improved varieties,3,42,2011,environment,24
+"farfchamps et al.,2005",capital intensity,1,labour dynamics,1,63,2005,economic,24
+"farfchamps et al.,2005",capital intensity,1,labour dynamics,1,63,2005,productivity,24
+"farfchamps et al.,2005",labour intensity,2,labour dynamics,11,63,2005,economic,32
+"farfchamps et al.,2005",labour intensity,2,labour dynamics,11,63,2005,human condition,32
+"farfchamps et al.,2005",knowledge intensity change,4,labour dynamics,10,63,2005,human condition,18
+"farfchamps et al.,2005",knowledge intensity change,4,labour dynamics,10,63,2005,social,18
+"farfchamps et al.,2005",knowledge intensity change,4,capacity building,10,8,2005,human condition,18
+"farfchamps et al.,2005",knowledge intensity change,4,capacity building,10,8,2005,social,18
+"farfchamps et al.,2005",information management,4,labour dynamics,7,63,2005,social,16
+"farfchamps et al.,2005",information management,4,labour dynamics,7,63,2005,economic,16
+"farnworth et al., 2018",land management intensity,2,labour dynamics,12,63,2018,environment,15
+"farnworth et al., 2018",capital intensity,2,labour dynamics,1,63,2018,economic,24
+"farnworth et al., 2018",capital intensity,2,labour dynamics,1,63,2018,productivity,24
+"farnworth et al., 2018",input-use intensity,2,labour dynamics,9,63,2018,productivity,26
+"farnworth et al., 2018",input-use intensity,2,labour dynamics,9,63,2018,environment,26
+"farnworth et al., 2018",labour intensity,2,labour dynamics,11,63,2018,economic,32
+"farnworth et al., 2018",labour intensity,2,labour dynamics,11,63,2018,human condition,32
+"farnworth et al., 2018",knowledge intensity change,2,labour dynamics,10,63,2018,human condition,18
+"farnworth et al., 2018",knowledge intensity change,2,labour dynamics,10,63,2018,social,18
+"farnworth et al., 2018",knowledge intensity change,2,capacity building,10,8,2018,human condition,18
+"farnworth et al., 2018",knowledge intensity change,2,capacity building,10,8,2018,social,18
+"farnworth et al., 2018",information management,2,labour dynamics,7,63,2018,social,16
+"farnworth et al., 2018",information management,2,labour dynamics,7,63,2018,economic,16
+"franke, van den brand and giller, 2014",land management intensity,2,fertilizer use,12,52,2014,environment,21
+"franke, van den brand and giller, 2014",land management intensity,2,legume integration,12,72,2014,environment,16
+"franke, van den brand and giller, 2014",input-use intensity,2,fertilizer use,9,52,2014,productivity,38
+"franke, van den brand and giller, 2014",input-use intensity,2,fertilizer use,9,52,2014,environment,38
+"franke, van den brand and giller, 2014",input-use intensity,2,legume integration,9,72,2014,productivity,26
+"franke, van den brand and giller, 2014",input-use intensity,2,legume integration,9,72,2014,environment,26
+"franke, van den brand and giller, 2014",labour intensity,2,fertilizer use,11,52,2014,economic,18
+"franke, van den brand and giller, 2014",labour intensity,2,fertilizer use,11,52,2014,human condition,18
+"franke, van den brand and giller, 2014",farm specialisation,2,fertilizer use,6,52,2014,economic,20
+"franke, van den brand and giller, 2014",farm specialisation,2,fertilizer use,6,52,2014,productivity,20
+"franke, van den brand and giller, 2014",farm specialisation,2,legume integration,6,72,2014,economic,18
+"franke, van den brand and giller, 2014",farm specialisation,2,legume integration,6,72,2014,productivity,18
+"franke, van den brand and giller, 2014",farm diversification,2,fertilizer use,5,52,2014,economic,32
+"franke, van den brand and giller, 2014",farm diversification,2,fertilizer use,5,52,2014,human condition,32
+"franke, van den brand and giller, 2014",farm diversification,2,legume integration,5,72,2014,economic,32
+"franke, van den brand and giller, 2014",farm diversification,2,legume integration,5,72,2014,human condition,32
+"franke, van den brand and giller, 2014",income diversification,2,fertilizer use,8,52,2014,economic,20
+"franke, van den brand and giller, 2014",income diversification,2,fertilizer use,8,52,2014,social,20
+"franke, van den brand and giller, 2014",income diversification,2,legume integration,8,72,2014,economic,18
+"franke, van den brand and giller, 2014",income diversification,2,legume integration,8,72,2014,social,18
+"franke, van den brand and giller, 2014",crop/breed change,2,fertilizer use,3,52,2014,productivity,36
+"franke, van den brand and giller, 2014",crop/breed change,2,fertilizer use,3,52,2014,economic,36
+"franke, van den brand and giller, 2014",crop/breed change,2,fertilizer use,3,52,2014,environment,36
+"franke, van den brand and giller, 2014",crop/breed change,2,legume integration,3,72,2014,productivity,30
+"franke, van den brand and giller, 2014",crop/breed change,2,legume integration,3,72,2014,economic,30
+"franke, van den brand and giller, 2014",crop/breed change,2,legume integration,3,72,2014,environment,30
+"franke, van den brand and giller, 2014",knowledge intensity change,4,fertilizer use,10,52,2014,human condition,26
+"franke, van den brand and giller, 2014",knowledge intensity change,4,fertilizer use,10,52,2014,social,26
+"franke, van den brand and giller, 2014",knowledge intensity change,4,legume integration,10,72,2014,human condition,22
+"franke, van den brand and giller, 2014",knowledge intensity change,4,legume integration,10,72,2014,social,22
+"gelli et al., 2022",crop/breed change,2,crop diversification,3,17,2022,productivity,27
+"gelli et al., 2022",crop/breed change,2,crop diversification,3,17,2022,economic,27
+"gelli et al., 2022",crop/breed change,2,crop diversification,3,17,2022,environment,27
+"gelli et al., 2022",farm specialisation,4,crop diversification,6,17,2022,economic,18
+"gelli et al., 2022",farm specialisation,4,crop diversification,6,17,2022,productivity,18
+"gelli et al., 2022",farm diversification,4,crop diversification,5,17,2022,economic,26
+"gelli et al., 2022",farm diversification,4,crop diversification,5,17,2022,human condition,26
+"grabowski et al., 2019",farm diversification,2,legume integration,5,72,2019,economic,32
+"grabowski et al., 2019",farm diversification,2,legume integration,5,72,2019,human condition,32
+"grabowski et al., 2019",knowledge intensity change,2,legume integration,10,72,2019,human condition,22
+"grabowski et al., 2019",knowledge intensity change,2,legume integration,10,72,2019,social,22
+"grabowski et al., 2019",crop/breed change,2,legume integration,3,72,2019,productivity,30
+"grabowski et al., 2019",crop/breed change,2,legume integration,3,72,2019,economic,30
+"grabowski et al., 2019",crop/breed change,2,legume integration,3,72,2019,environment,30
+"grabowski et al., 2019",land management intensity,4,legume integration,12,72,2019,environment,16
+"grabowski et al., 2019",input-use intensity,4,legume integration,9,72,2019,productivity,26
+"grabowski et al., 2019",input-use intensity,4,legume integration,9,72,2019,environment,26
+"grabowski et al., 2019",farm specialisation,4,legume integration,6,72,2019,economic,18
+"grabowski et al., 2019",farm specialisation,4,legume integration,6,72,2019,productivity,18
+"grabowski et al., 2019",income diversification,4,legume integration,8,72,2019,economic,18
+"grabowski et al., 2019",income diversification,4,legume integration,8,72,2019,social,18
+"gwenambira-mwika, snapp and chikowo, 2021",land management intensity,2,legume integration,12,72,2021,environment,16
+"gwenambira-mwika, snapp and chikowo, 2021",land management intensity,2,fertilizer use,12,38,2021,environment,21
+"gwenambira-mwika, snapp and chikowo, 2021",input-use intensity,2,legume integration,9,72,2021,productivity,26
+"gwenambira-mwika, snapp and chikowo, 2021",input-use intensity,2,legume integration,9,72,2021,environment,26
+"gwenambira-mwika, snapp and chikowo, 2021",input-use intensity,2,fertilizer use,9,38,2021,productivity,38
+"gwenambira-mwika, snapp and chikowo, 2021",input-use intensity,2,fertilizer use,9,38,2021,environment,38
+"gwenambira-mwika, snapp and chikowo, 2021",farm diversification,2,legume integration,5,72,2021,economic,32
+"gwenambira-mwika, snapp and chikowo, 2021",farm diversification,2,legume integration,5,72,2021,human condition,32
+"gwenambira-mwika, snapp and chikowo, 2021",farm diversification,2,fertilizer use,5,38,2021,economic,32
+"gwenambira-mwika, snapp and chikowo, 2021",farm diversification,2,fertilizer use,5,38,2021,human condition,32
+"gwenambira-mwika, snapp and chikowo, 2021",income diversification,2,legume integration,8,72,2021,economic,18
+"gwenambira-mwika, snapp and chikowo, 2021",income diversification,2,legume integration,8,72,2021,social,18
+"gwenambira-mwika, snapp and chikowo, 2021",income diversification,2,fertilizer use,8,38,2021,economic,20
+"gwenambira-mwika, snapp and chikowo, 2021",income diversification,2,fertilizer use,8,38,2021,social,20
+"gwenambira-mwika, snapp and chikowo, 2021",crop/breed change,2,legume integration,3,72,2021,productivity,30
+"gwenambira-mwika, snapp and chikowo, 2021",crop/breed change,2,legume integration,3,72,2021,economic,30
+"gwenambira-mwika, snapp and chikowo, 2021",crop/breed change,2,legume integration,3,72,2021,environment,30
+"gwenambira-mwika, snapp and chikowo, 2021",crop/breed change,2,fertilizer use,3,38,2021,productivity,36
+"gwenambira-mwika, snapp and chikowo, 2021",crop/breed change,2,fertilizer use,3,38,2021,economic,36
+"gwenambira-mwika, snapp and chikowo, 2021",crop/breed change,2,fertilizer use,3,38,2021,environment,36
+"gwenambira-mwika, snapp and chikowo, 2021",knowledge intensity change,4,legume integration,10,72,2021,human condition,22
+"gwenambira-mwika, snapp and chikowo, 2021",knowledge intensity change,4,legume integration,10,72,2021,social,22
+"gwenambira-mwika, snapp and chikowo, 2021",knowledge intensity change,4,fertilizer use,10,38,2021,human condition,26
+"gwenambira-mwika, snapp and chikowo, 2021",knowledge intensity change,4,fertilizer use,10,38,2021,social,26
+"homann-kee tui et al., 2013",crop/breed change,1,improved varieties,3,45,2013,productivity,24
+"homann-kee tui et al., 2013",crop/breed change,1,improved varieties,3,45,2013,economic,24
+"homann-kee tui et al., 2013",crop/breed change,1,improved varieties,3,45,2013,environment,24
+"homann-kee tui et al., 2013",crop/breed change,1,crop diversification,3,18,2013,productivity,27
+"homann-kee tui et al., 2013",crop/breed change,1,crop diversification,3,18,2013,economic,27
+"homann-kee tui et al., 2013",crop/breed change,1,crop diversification,3,18,2013,environment,27
+"homann-kee tui et al., 2013",farm diversification,2,crop diversification,5,18,2013,economic,26
+"homann-kee tui et al., 2013",farm diversification,2,crop diversification,5,18,2013,human condition,26
+"homann-kee tui et al., 2013",information management,2,crop diversification,7,18,2013,social,16
+"homann-kee tui et al., 2013",information management,2,crop diversification,7,18,2013,economic,16
+"homann-kee tui et al., 2013",input-use intensity,4,crop diversification,9,18,2013,productivity,18
+"homann-kee tui et al., 2013",input-use intensity,4,crop diversification,9,18,2013,environment,18
+"homann-kee tui et al., 2013",farm specialisation,4,crop diversification,6,18,2013,economic,18
+"homann-kee tui et al., 2013",farm specialisation,4,crop diversification,6,18,2013,productivity,18
+"jayne et al., 2018",land management intensity,1,fertilizer use,12,38,2018,environment,21
+"jew et al., 2020",land management intensity,2,labour dynamics,12,63,2020,environment,15
+"jew et al., 2020",capital intensity,2,labour dynamics,1,63,2020,economic,24
+"jew et al., 2020",capital intensity,2,labour dynamics,1,63,2020,productivity,24
+"jew et al., 2020",labour intensity,2,labour dynamics,11,63,2020,economic,32
+"jew et al., 2020",labour intensity,2,labour dynamics,11,63,2020,human condition,32
+"jew et al., 2020",knowledge intensity change,4,labour dynamics,10,63,2020,human condition,18
+"jew et al., 2020",knowledge intensity change,4,labour dynamics,10,63,2020,social,18
+"jew et al., 2020",knowledge intensity change,4,capacity building,10,8,2020,human condition,18
+"jew et al., 2020",knowledge intensity change,4,capacity building,10,8,2020,social,18
+"jew et al., 2020",crop/breed change,4,labour dynamics,3,63,2020,productivity,24
+"jew et al., 2020",crop/breed change,4,labour dynamics,3,63,2020,economic,24
+"jew et al., 2020",crop/breed change,4,labour dynamics,3,63,2020,environment,24
+"jew et al., 2020",crop/breed change,4,capacity building,3,8,2020,productivity,15
+"jew et al., 2020",crop/breed change,4,capacity building,3,8,2020,economic,15
+"jew et al., 2020",crop/breed change,4,capacity building,3,8,2020,environment,15
+"jew et al., 2020",crop/breed change,4,conservation agriculture,3,13,2020,productivity,24
+"jew et al., 2020",crop/breed change,4,conservation agriculture,3,13,2020,economic,24
+"jew et al., 2020",crop/breed change,4,conservation agriculture,3,13,2020,environment,24
+john et al. 2021,land management intensity,2,legume integration,12,72,2021,environment,16
+john et al. 2021,input-use intensity,2,legume integration,9,72,2021,productivity,26
+john et al. 2021,input-use intensity,2,legume integration,9,72,2021,environment,26
+john et al. 2021,farm specialisation,2,legume integration,6,72,2021,economic,18
+john et al. 2021,farm specialisation,2,legume integration,6,72,2021,productivity,18
+john et al. 2021,farm diversification,2,legume integration,5,72,2021,economic,32
+john et al. 2021,farm diversification,2,legume integration,5,72,2021,human condition,32
+"john et al., 2021",land management intensity,1,legume integration,12,72,2021,environment,16
+"john et al., 2021",input-use intensity,1,legume integration,9,72,2021,productivity,26
+"john et al., 2021",input-use intensity,1,legume integration,9,72,2021,environment,26
+"john et al., 2021",input-use intensity,1,crop diversification,9,17,2021,productivity,18
+"john et al., 2021",input-use intensity,1,crop diversification,9,17,2021,environment,18
+"john et al., 2021",farm diversification,1,legume integration,5,72,2021,economic,32
+"john et al., 2021",farm diversification,1,legume integration,5,72,2021,human condition,32
+"john et al., 2021",farm diversification,1,crop diversification,5,17,2021,economic,26
+"john et al., 2021",farm diversification,1,crop diversification,5,17,2021,human condition,26
+"john et al., 2021",income diversification,2,legume integration,8,72,2021,economic,18
+"john et al., 2021",income diversification,2,legume integration,8,72,2021,social,18
+"john et al., 2021",income diversification,2,crop diversification,8,17,2021,economic,16
+"john et al., 2021",income diversification,2,crop diversification,8,17,2021,social,16
+"john et al., 2021",information management,2,crop diversification,7,17,2021,social,16
+"john et al., 2021",information management,2,crop diversification,7,17,2021,economic,16
+"john et al., 2021",crop/breed change,4,legume integration,3,72,2021,productivity,30
+"john et al., 2021",crop/breed change,4,legume integration,3,72,2021,economic,30
+"john et al., 2021",crop/breed change,4,legume integration,3,72,2021,environment,30
+"john et al., 2021",crop/breed change,4,crop diversification,3,17,2021,productivity,27
+"john et al., 2021",crop/breed change,4,crop diversification,3,17,2021,economic,27
+"john et al., 2021",crop/breed change,4,crop diversification,3,17,2021,environment,27
+julien et al. 2018,cooperation,4,market access,2,76,2018,social,18
+julien et al. 2018,cooperation,4,market access,2,76,2018,economic,18
+komarek et al. 2018,land management intensity,1,legume integration,12,72,2018,environment,16
+komarek et al. 2018,farm diversification,1,legume integration,5,72,2018,economic,32
+komarek et al. 2018,farm diversification,1,legume integration,5,72,2018,human condition,32
+komarek et al. 2018,farm diversification,1,rotations,5,91,2018,economic,20
+komarek et al. 2018,farm diversification,1,rotations,5,91,2018,human condition,20
+komarek et al. 2018,income diversification,1,legume integration,8,72,2018,economic,18
+komarek et al. 2018,income diversification,1,legume integration,8,72,2018,social,18
+komarek et al. 2018,input-use intensity,3,legume integration,9,72,2018,productivity,26
+komarek et al. 2018,input-use intensity,3,legume integration,9,72,2018,environment,26
+komarek et al. 2018,input-use intensity,3,rotations,9,91,2018,productivity,16
+komarek et al. 2018,input-use intensity,3,rotations,9,91,2018,environment,16
+komarek et al. 2018,farm specialisation,3,legume integration,6,72,2018,economic,18
+komarek et al. 2018,farm specialisation,3,legume integration,6,72,2018,productivity,18
+komarek et al. 2018,knowledge intensity change,4,legume integration,10,72,2018,human condition,22
+komarek et al. 2018,knowledge intensity change,4,legume integration,10,72,2018,social,22
+komarek et al. 2018,land management intensity,1,fertilizer use,12,37,2018,environment,21
+komarek et al. 2018,labour intensity,1,fertilizer use,11,37,2018,economic,18
+komarek et al. 2018,labour intensity,1,fertilizer use,11,37,2018,human condition,18
+komarek et al. 2018,farm diversification,1,crop diversification,5,17,2018,economic,26
+komarek et al. 2018,farm diversification,1,crop diversification,5,17,2018,human condition,26
+komarek et al. 2018,farm diversification,1,fertilizer use,5,37,2018,economic,32
+komarek et al. 2018,farm diversification,1,fertilizer use,5,37,2018,human condition,32
+"komarek et al., 2017",input-use intensity,2,fertilizer use,9,38,2017,productivity,38
+"komarek et al., 2017",input-use intensity,2,fertilizer use,9,38,2017,environment,38
+"komarek et al., 2017",input-use intensity,2,legume integration,9,72,2017,productivity,26
+"komarek et al., 2017",input-use intensity,2,legume integration,9,72,2017,environment,26
+"komarek et al., 2017",farm specialisation,4,fertilizer use,6,38,2017,economic,20
+"komarek et al., 2017",farm specialisation,4,fertilizer use,6,38,2017,productivity,20
+"komarek et al., 2017",farm specialisation,4,legume integration,6,72,2017,economic,18
+"komarek et al., 2017",farm specialisation,4,legume integration,6,72,2017,productivity,18
+"komarek et al., 2017",farm diversification,4,fertilizer use,5,38,2017,economic,32
+"komarek et al., 2017",farm diversification,4,fertilizer use,5,38,2017,human condition,32
+"komarek et al., 2017",farm diversification,4,legume integration,5,72,2017,economic,32
+"komarek et al., 2017",farm diversification,4,legume integration,5,72,2017,human condition,32
+"komarek et al., 2017",crop/breed change,4,fertilizer use,3,38,2017,productivity,36
+"komarek et al., 2017",crop/breed change,4,fertilizer use,3,38,2017,economic,36
+"komarek et al., 2017",crop/breed change,4,fertilizer use,3,38,2017,environment,36
+"komarek et al., 2017",crop/breed change,4,legume integration,3,72,2017,productivity,30
+"komarek et al., 2017",crop/breed change,4,legume integration,3,72,2017,economic,30
+"komarek et al., 2017",crop/breed change,4,legume integration,3,72,2017,environment,30
+"koppmair, kassie and qaim, 2017",capital intensity,2,fertilizer use,1,52,2017,economic,22
+"koppmair, kassie and qaim, 2017",capital intensity,2,fertilizer use,1,52,2017,productivity,22
+"koppmair, kassie and qaim, 2017",capital intensity,2,extension service,1,27,2017,economic,16
+"koppmair, kassie and qaim, 2017",capital intensity,2,extension service,1,27,2017,productivity,16
+"koppmair, kassie and qaim, 2017",input-use intensity,2,fertilizer use,9,52,2017,productivity,38
+"koppmair, kassie and qaim, 2017",input-use intensity,2,fertilizer use,9,52,2017,environment,38
+"koppmair, kassie and qaim, 2017",input-use intensity,2,extension service,9,27,2017,productivity,16
+"koppmair, kassie and qaim, 2017",input-use intensity,2,extension service,9,27,2017,environment,16
+"koppmair, kassie and qaim, 2017",knowledge intensity change,2,fertilizer use,10,52,2017,human condition,26
+"koppmair, kassie and qaim, 2017",knowledge intensity change,2,fertilizer use,10,52,2017,social,26
+"koppmair, kassie and qaim, 2017",knowledge intensity change,2,extension service,10,27,2017,human condition,20
+"koppmair, kassie and qaim, 2017",knowledge intensity change,2,extension service,10,27,2017,social,20
+"koppmair, kassie and qaim, 2017",knowledge intensity change,2,market access,10,76,2017,human condition,20
+"koppmair, kassie and qaim, 2017",knowledge intensity change,2,market access,10,76,2017,social,20
+"koppmair, kassie and qaim, 2017",information management,2,extension service,7,27,2017,social,16
+"koppmair, kassie and qaim, 2017",information management,2,extension service,7,27,2017,economic,16
+"koppmair, kassie and qaim, 2017",cooperation,2,market access,2,76,2017,social,18
+"koppmair, kassie and qaim, 2017",cooperation,2,market access,2,76,2017,economic,18
+"koppmair, kassie and qaim, 2017",farm specialisation,4,fertilizer use,6,52,2017,economic,20
+"koppmair, kassie and qaim, 2017",farm specialisation,4,fertilizer use,6,52,2017,productivity,20
+"koppmair, kassie and qaim, 2017",farm diversification,4,fertilizer use,5,52,2017,economic,32
+"koppmair, kassie and qaim, 2017",farm diversification,4,fertilizer use,5,52,2017,human condition,32
+"koppmair, kassie and qaim, 2017",crop/breed change,4,fertilizer use,3,52,2017,productivity,36
+"koppmair, kassie and qaim, 2017",crop/breed change,4,fertilizer use,3,52,2017,economic,36
+"koppmair, kassie and qaim, 2017",crop/breed change,4,fertilizer use,3,52,2017,environment,36
+"koppmair, kassie and qaim, 2017",crop/breed change,4,improved varieties,3,44,2017,productivity,24
+"koppmair, kassie and qaim, 2017",crop/breed change,4,improved varieties,3,44,2017,economic,24
+"koppmair, kassie and qaim, 2017",crop/breed change,4,improved varieties,3,44,2017,environment,24
+"koppmair, kassie and qaim, 2017",crop/breed change,4,livestock integration,3,73,2017,productivity,15
+"koppmair, kassie and qaim, 2017",crop/breed change,4,livestock integration,3,73,2017,economic,15
+"koppmair, kassie and qaim, 2017",crop/breed change,4,livestock integration,3,73,2017,environment,15
+"koppmair, kassie and qaim, 2017",crop/breed change,4,extension service,3,27,2017,productivity,15
+"koppmair, kassie and qaim, 2017",crop/breed change,4,extension service,3,27,2017,economic,15
+"koppmair, kassie and qaim, 2017",crop/breed change,4,extension service,3,27,2017,environment,15
+"koppmair, kassie and qaim, 2017",crop/breed change,4,market access,3,76,2017,productivity,21
+"koppmair, kassie and qaim, 2017",crop/breed change,4,market access,3,76,2017,economic,21
+"koppmair, kassie and qaim, 2017",crop/breed change,4,market access,3,76,2017,environment,21
+"krah et al., 2019",land management intensity,1,fertilizer use,12,52,2019,environment,21
+"krah et al., 2019",land management intensity,1,legume integration,12,72,2019,environment,16
+"krah et al., 2019",land management intensity,1,labour dynamics,12,63,2019,environment,15
+"krah et al., 2019",input-use intensity,1,fertilizer use,9,52,2019,productivity,38
+"krah et al., 2019",input-use intensity,1,fertilizer use,9,52,2019,environment,38
+"krah et al., 2019",input-use intensity,1,legume integration,9,72,2019,productivity,26
+"krah et al., 2019",input-use intensity,1,legume integration,9,72,2019,environment,26
+"krah et al., 2019",input-use intensity,1,labour dynamics,9,63,2019,productivity,26
+"krah et al., 2019",input-use intensity,1,labour dynamics,9,63,2019,environment,26
+"krah et al., 2019",labour intensity,1,fertilizer use,11,52,2019,economic,18
+"krah et al., 2019",labour intensity,1,fertilizer use,11,52,2019,human condition,18
+"krah et al., 2019",labour intensity,1,labour dynamics,11,63,2019,economic,32
+"krah et al., 2019",labour intensity,1,labour dynamics,11,63,2019,human condition,32
+"krah et al., 2019",farm diversification,1,fertilizer use,5,52,2019,economic,32
+"krah et al., 2019",farm diversification,1,fertilizer use,5,52,2019,human condition,32
+"krah et al., 2019",farm diversification,1,legume integration,5,72,2019,economic,32
+"krah et al., 2019",farm diversification,1,legume integration,5,72,2019,human condition,32
+"krah et al., 2019",knowledge intensity change,3,fertilizer use,10,52,2019,human condition,26
+"krah et al., 2019",knowledge intensity change,3,fertilizer use,10,52,2019,social,26
+"krah et al., 2019",knowledge intensity change,3,legume integration,10,72,2019,human condition,22
+"krah et al., 2019",knowledge intensity change,3,legume integration,10,72,2019,social,22
+"krah et al., 2019",knowledge intensity change,3,labour dynamics,10,63,2019,human condition,18
+"krah et al., 2019",knowledge intensity change,3,labour dynamics,10,63,2019,social,18
+kuyah et al. 2021,farm diversification,2,conservation agriculture,5,13,2021,economic,18
+kuyah et al. 2021,farm diversification,2,conservation agriculture,5,13,2021,human condition,18
+kuyah et al. 2021,crop/breed change,2,conservation agriculture,3,13,2021,productivity,24
+kuyah et al. 2021,crop/breed change,2,conservation agriculture,3,13,2021,economic,24
+kuyah et al. 2021,crop/breed change,2,conservation agriculture,3,13,2021,environment,24
+li et al. 2017,information management,1,crop diversification,7,17,2017,social,16
+li et al. 2017,information management,1,crop diversification,7,17,2017,economic,16
+li et al. 2017,farm diversification,3,crop diversification,5,17,2017,economic,26
+li et al. 2017,farm diversification,3,crop diversification,5,17,2017,human condition,26
+"matchaya, nhlengethwa and analysis,2014",land management intensity,2,fertilizer use,12,38,2014,environment,21
+"matchaya, nhlengethwa and analysis,2014",land management intensity,2,labour dynamics,12,64,2014,environment,15
+"matchaya, nhlengethwa and analysis,2014",capital intensity,2,fertilizer use,1,38,2014,economic,22
+"matchaya, nhlengethwa and analysis,2014",capital intensity,2,fertilizer use,1,38,2014,productivity,22
+"matchaya, nhlengethwa and analysis,2014",capital intensity,2,labour dynamics,1,64,2014,economic,24
+"matchaya, nhlengethwa and analysis,2014",capital intensity,2,labour dynamics,1,64,2014,productivity,24
+"matchaya, nhlengethwa and analysis,2014",input-use intensity,2,fertilizer use,9,38,2014,productivity,38
+"matchaya, nhlengethwa and analysis,2014",input-use intensity,2,fertilizer use,9,38,2014,environment,38
+"matchaya, nhlengethwa and analysis,2014",input-use intensity,2,labour dynamics,9,64,2014,productivity,26
+"matchaya, nhlengethwa and analysis,2014",input-use intensity,2,labour dynamics,9,64,2014,environment,26
+"matchaya, nhlengethwa and analysis,2014",labour intensity,2,fertilizer use,11,38,2014,economic,18
+"matchaya, nhlengethwa and analysis,2014",labour intensity,2,fertilizer use,11,38,2014,human condition,18
+"matchaya, nhlengethwa and analysis,2014",labour intensity,2,labour dynamics,11,64,2014,economic,32
+"matchaya, nhlengethwa and analysis,2014",labour intensity,2,labour dynamics,11,64,2014,human condition,32
+"matchaya, nhlengethwa and analysis,2014",knowledge intensity change,4,fertilizer use,10,38,2014,human condition,26
+"matchaya, nhlengethwa and analysis,2014",knowledge intensity change,4,fertilizer use,10,38,2014,social,26
+"matchaya, nhlengethwa and analysis,2014",knowledge intensity change,4,labour dynamics,10,64,2014,human condition,18
+"matchaya, nhlengethwa and analysis,2014",knowledge intensity change,4,labour dynamics,10,64,2014,social,18
+"menale et al.,2014",land management intensity,2,legume integration,12,72,2014,environment,16
+"menale et al.,2014",land management intensity,2,labour dynamics,12,63,2014,environment,15
+"menale et al.,2014",input-use intensity,2,legume integration,9,72,2014,productivity,26
+"menale et al.,2014",input-use intensity,2,legume integration,9,72,2014,environment,26
+"menale et al.,2014",input-use intensity,2,extension service,9,27,2014,productivity,16
+"menale et al.,2014",input-use intensity,2,extension service,9,27,2014,environment,16
+"menale et al.,2014",input-use intensity,2,labour dynamics,9,63,2014,productivity,26
+"menale et al.,2014",input-use intensity,2,labour dynamics,9,63,2014,environment,26
+"menale et al.,2014",labour intensity,2,labour dynamics,11,63,2014,economic,32
+"menale et al.,2014",labour intensity,2,labour dynamics,11,63,2014,human condition,32
+"menale et al.,2014",knowledge intensity change,2,legume integration,10,72,2014,human condition,22
+"menale et al.,2014",knowledge intensity change,2,legume integration,10,72,2014,social,22
+"menale et al.,2014",knowledge intensity change,2,extension service,10,27,2014,human condition,20
+"menale et al.,2014",knowledge intensity change,2,extension service,10,27,2014,social,20
+"menale et al.,2014",knowledge intensity change,2,labour dynamics,10,63,2014,human condition,18
+"menale et al.,2014",knowledge intensity change,2,labour dynamics,10,63,2014,social,18
+"menale et al.,2014",information management,2,extension service,7,27,2014,social,16
+"menale et al.,2014",information management,2,extension service,7,27,2014,economic,16
+"menale et al.,2014",information management,2,labour dynamics,7,63,2014,social,16
+"menale et al.,2014",information management,2,labour dynamics,7,63,2014,economic,16
+"menale et al.,2014",capital intensity,4,extension service,1,27,2014,economic,16
+"menale et al.,2014",capital intensity,4,extension service,1,27,2014,productivity,16
+"menale et al.,2014",capital intensity,4,labour dynamics,1,63,2014,economic,24
+"menale et al.,2014",capital intensity,4,labour dynamics,1,63,2014,productivity,24
+"menale et al.,2014",farm diversification,4,conservation agriculture,5,13,2014,economic,18
+"menale et al.,2014",farm diversification,4,conservation agriculture,5,13,2014,human condition,18
+"menale et al.,2014",farm diversification,4,legume integration,5,72,2014,economic,32
+"menale et al.,2014",farm diversification,4,legume integration,5,72,2014,human condition,32
+"menale et al.,2014",crop/breed change,4,conservation agriculture,3,13,2014,productivity,24
+"menale et al.,2014",crop/breed change,4,conservation agriculture,3,13,2014,economic,24
+"menale et al.,2014",crop/breed change,4,conservation agriculture,3,13,2014,environment,24
+"menale et al.,2014",crop/breed change,4,legume integration,3,72,2014,productivity,30
+"menale et al.,2014",crop/breed change,4,legume integration,3,72,2014,economic,30
+"menale et al.,2014",crop/breed change,4,legume integration,3,72,2014,environment,30
+"menale et al.,2014",crop/breed change,4,extension service,3,27,2014,productivity,15
+"menale et al.,2014",crop/breed change,4,extension service,3,27,2014,economic,15
+"menale et al.,2014",crop/breed change,4,extension service,3,27,2014,environment,15
+"menale et al.,2014",crop/breed change,4,labour dynamics,3,63,2014,productivity,24
+"menale et al.,2014",crop/breed change,4,labour dynamics,3,63,2014,economic,24
+"menale et al.,2014",crop/breed change,4,labour dynamics,3,63,2014,environment,24
+mhango et al. 2013,land management intensity,2,legume integration,12,72,2013,environment,16
+mhango et al. 2013,income diversification,2,legume integration,8,72,2013,economic,18
+mhango et al. 2013,income diversification,2,legume integration,8,72,2013,social,18
+mhango et al. 2013,income diversification,2,crop diversification,8,17,2013,economic,16
+mhango et al. 2013,income diversification,2,crop diversification,8,17,2013,social,16
+mhango et al. 2013,knowledge intensity change,2,legume integration,10,72,2013,human condition,22
+mhango et al. 2013,knowledge intensity change,2,legume integration,10,72,2013,social,22
+mhango et al. 2013,knowledge intensity change,2,market access,10,77,2013,human condition,20
+mhango et al. 2013,knowledge intensity change,2,market access,10,77,2013,social,20
+mhango et al. 2013,knowledge intensity change,2,capacity building,10,8,2013,human condition,18
+mhango et al. 2013,knowledge intensity change,2,capacity building,10,8,2013,social,18
+mhango et al. 2013,information management,2,crop diversification,7,17,2013,social,16
+mhango et al. 2013,information management,2,crop diversification,7,17,2013,economic,16
+"mponela et al., 2016",land management intensity,1,legume integration,12,72,2016,environment,16
+"mponela et al., 2016",land management intensity,1,fertilizer use,12,52,2016,environment,21
+"mponela et al., 2016",input-use intensity,1,legume integration,9,72,2016,productivity,26
+"mponela et al., 2016",input-use intensity,1,legume integration,9,72,2016,environment,26
+"mponela et al., 2016",input-use intensity,1,rotations,9,91,2016,productivity,16
+"mponela et al., 2016",input-use intensity,1,rotations,9,91,2016,environment,16
+"mponela et al., 2016",input-use intensity,1,fertilizer use,9,52,2016,productivity,38
+"mponela et al., 2016",input-use intensity,1,fertilizer use,9,52,2016,environment,38
+"mponela et al., 2016",farm diversification,1,legume integration,5,72,2016,economic,32
+"mponela et al., 2016",farm diversification,1,legume integration,5,72,2016,human condition,32
+"mponela et al., 2016",farm diversification,1,rotations,5,91,2016,economic,20
+"mponela et al., 2016",farm diversification,1,rotations,5,91,2016,human condition,20
+"mponela et al., 2016",farm diversification,1,fertilizer use,5,52,2016,economic,32
+"mponela et al., 2016",farm diversification,1,fertilizer use,5,52,2016,human condition,32
+"mponela et al., 2016",knowledge intensity change,1,legume integration,10,72,2016,human condition,22
+"mponela et al., 2016",knowledge intensity change,1,legume integration,10,72,2016,social,22
+"mponela et al., 2016",knowledge intensity change,1,fertilizer use,10,52,2016,human condition,26
+"mponela et al., 2016",knowledge intensity change,1,fertilizer use,10,52,2016,social,26
+"mponela et al., 2016",capital intensity,3,fertilizer use,1,52,2016,economic,22
+"mponela et al., 2016",capital intensity,3,fertilizer use,1,52,2016,productivity,22
+"mulwa et al., 2017",information management,1,crop diversification,7,17,2017,social,16
+"mulwa et al., 2017",information management,1,crop diversification,7,17,2017,economic,16
+"mulwa et al., 2017",income diversification,3,crop diversification,8,17,2017,economic,16
+"mulwa et al., 2017",income diversification,3,crop diversification,8,17,2017,social,16
+"mulwa et al., 2017",capital intensity,2,extension service,1,27,2017,economic,16
+"mulwa et al., 2017",capital intensity,2,extension service,1,27,2017,productivity,16
+"mulwa et al., 2017",input-use intensity,2,extension service,9,27,2017,productivity,16
+"mulwa et al., 2017",input-use intensity,2,extension service,9,27,2017,environment,16
+"mulwa et al., 2017",knowledge intensity change,2,extension service,10,27,2017,human condition,20
+"mulwa et al., 2017",knowledge intensity change,2,extension service,10,27,2017,social,20
+"mulwa et al., 2017",knowledge intensity change,2,capacity building,10,8,2017,human condition,18
+"mulwa et al., 2017",knowledge intensity change,2,capacity building,10,8,2017,social,18
+"mulwa et al., 2017",information management,2,extension service,7,27,2017,social,16
+"mulwa et al., 2017",information management,2,extension service,7,27,2017,economic,16
+"mutenje et al., 2016",farm diversification,2,conservation agriculture,5,13,2016,economic,18
+"mutenje et al., 2016",farm diversification,2,conservation agriculture,5,13,2016,human condition,18
+"mutenje et al., 2016",knowledge intensity change,2,capacity building,10,8,2016,human condition,18
+"mutenje et al., 2016",knowledge intensity change,2,capacity building,10,8,2016,social,18
+"mutenje et al., 2016",crop/breed change,2,conservation agriculture,3,13,2016,productivity,24
+"mutenje et al., 2016",crop/breed change,2,conservation agriculture,3,13,2016,economic,24
+"mutenje et al., 2016",crop/breed change,2,conservation agriculture,3,13,2016,environment,24
+"mutenje et al., 2016",crop/breed change,2,capacity building,3,8,2016,productivity,15
+"mutenje et al., 2016",crop/breed change,2,capacity building,3,8,2016,economic,15
+"mutenje et al., 2016",crop/breed change,2,capacity building,3,8,2016,environment,15
+"ngwira, aune and thierfelder, 2014",land management intensity,2,legume integration,12,72,2014,environment,16
+"ngwira, aune and thierfelder, 2014",input-use intensity,2,legume integration,9,72,2014,productivity,26
+"ngwira, aune and thierfelder, 2014",input-use intensity,2,legume integration,9,72,2014,environment,26
+"ngwira, aune and thierfelder, 2014",input-use intensity,2,rotations,9,91,2014,productivity,16
+"ngwira, aune and thierfelder, 2014",input-use intensity,2,rotations,9,91,2014,environment,16
+"ngwira, aune and thierfelder, 2014",farm diversification,2,conservation agriculture,5,13,2014,economic,18
+"ngwira, aune and thierfelder, 2014",farm diversification,2,conservation agriculture,5,13,2014,human condition,18
+"ngwira, aune and thierfelder, 2014",farm diversification,2,legume integration,5,72,2014,economic,32
+"ngwira, aune and thierfelder, 2014",farm diversification,2,legume integration,5,72,2014,human condition,32
+"ngwira, aune and thierfelder, 2014",farm diversification,2,rotations,5,91,2014,economic,20
+"ngwira, aune and thierfelder, 2014",farm diversification,2,rotations,5,91,2014,human condition,20
+"nyagumbo et al., 2020",farm diversification,3,conservation agriculture,5,13,2020,economic,18
+"nyagumbo et al., 2020",farm diversification,3,conservation agriculture,5,13,2020,human condition,18
+"nyagumbo et al., 2020",farm diversification,3,rotations,5,91,2020,economic,20
+"nyagumbo et al., 2020",farm diversification,3,rotations,5,91,2020,human condition,20
+okori et al. 2022,capital intensity,2,extension service,1,33,2022,economic,16
+okori et al. 2022,capital intensity,2,extension service,1,33,2022,productivity,16
+okori et al. 2022,input-use intensity,2,extension service,9,33,2022,productivity,16
+okori et al. 2022,input-use intensity,2,extension service,9,33,2022,environment,16
+okori et al. 2022,knowledge intensity change,2,extension service,10,33,2022,human condition,20
+okori et al. 2022,knowledge intensity change,2,extension service,10,33,2022,social,20
+okori et al. 2022,information management,2,extension service,7,33,2022,social,16
+okori et al. 2022,information management,2,extension service,7,33,2022,economic,16
+okori et al. 2022,crop/breed change,3,extension service,3,33,2022,productivity,15
+okori et al. 2022,crop/breed change,3,extension service,3,33,2022,economic,15
+okori et al. 2022,crop/breed change,3,extension service,3,33,2022,environment,15
+"ortega et al., 2016",land management intensity,2,labour dynamics,12,63,2016,environment,15
+"ortega et al., 2016",input-use intensity,2,crop diversification,9,17,2016,productivity,18
+"ortega et al., 2016",input-use intensity,2,crop diversification,9,17,2016,environment,18
+"ortega et al., 2016",input-use intensity,2,labour dynamics,9,63,2016,productivity,26
+"ortega et al., 2016",input-use intensity,2,labour dynamics,9,63,2016,environment,26
+"ortega et al., 2016",labour intensity,2,labour dynamics,11,63,2016,economic,32
+"ortega et al., 2016",labour intensity,2,labour dynamics,11,63,2016,human condition,32
+"ortega et al., 2016",farm specialisation,2,crop diversification,6,17,2016,economic,18
+"ortega et al., 2016",farm specialisation,2,crop diversification,6,17,2016,productivity,18
+"ortega et al., 2016",farm diversification,2,crop diversification,5,17,2016,economic,26
+"ortega et al., 2016",farm diversification,2,crop diversification,5,17,2016,human condition,26
+"owusu and bravo-ureta, 2022",knowledge intensity change,2,labour dynamics,10,63,2022,human condition,18
+"owusu and bravo-ureta, 2022",knowledge intensity change,2,labour dynamics,10,63,2022,social,18
+"owusu and bravo-ureta, 2022",knowledge intensity change,2,extension service,10,27,2022,human condition,20
+"owusu and bravo-ureta, 2022",knowledge intensity change,2,extension service,10,27,2022,social,20
+"owusu and bravo-ureta, 2022",information management,2,labour dynamics,7,63,2022,social,16
+"owusu and bravo-ureta, 2022",information management,2,labour dynamics,7,63,2022,economic,16
+"owusu and bravo-ureta, 2022",information management,2,extension service,7,27,2022,social,16
+"owusu and bravo-ureta, 2022",information management,2,extension service,7,27,2022,economic,16
+"owusu and bravo-ureta, 2022",land management intensity,3,labour dynamics,12,63,2022,environment,15
+"owusu and bravo-ureta, 2022",labour intensity,3,labour dynamics,11,63,2022,economic,32
+"owusu and bravo-ureta, 2022",labour intensity,3,labour dynamics,11,63,2022,human condition,32
+"owusu and bravo-ureta, 2022",capital intensity,4,labour dynamics,1,63,2022,economic,24
+"owusu and bravo-ureta, 2022",capital intensity,4,labour dynamics,1,63,2022,productivity,24
+"owusu and bravo-ureta, 2022",capital intensity,4,extension service,1,27,2022,economic,16
+"owusu and bravo-ureta, 2022",capital intensity,4,extension service,1,27,2022,productivity,16
+"owusu and bravo-ureta, 2022",input-use intensity,4,labour dynamics,9,63,2022,productivity,26
+"owusu and bravo-ureta, 2022",input-use intensity,4,labour dynamics,9,63,2022,environment,26
+"owusu and bravo-ureta, 2022",input-use intensity,4,extension service,9,27,2022,productivity,16
+"owusu and bravo-ureta, 2022",input-use intensity,4,extension service,9,27,2022,environment,16
+"owusu and bravo-ureta, 2022",crop/breed change,4,labour dynamics,3,63,2022,productivity,24
+"owusu and bravo-ureta, 2022",crop/breed change,4,labour dynamics,3,63,2022,economic,24
+"owusu and bravo-ureta, 2022",crop/breed change,4,labour dynamics,3,63,2022,environment,24
+"owusu and bravo-ureta, 2022",crop/breed change,4,extension service,3,27,2022,productivity,15
+"owusu and bravo-ureta, 2022",crop/breed change,4,extension service,3,27,2022,economic,15
+"owusu and bravo-ureta, 2022",crop/breed change,4,extension service,3,27,2022,environment,15
+"sanchez et al., 2007",input-use intensity,1,crop diversification,9,17,2007,productivity,18
+"sanchez et al., 2007",input-use intensity,1,crop diversification,9,17,2007,environment,18
+"sanchez et al., 2007",input-use intensity,1,fertilizer use,9,38,2007,productivity,38
+"sanchez et al., 2007",input-use intensity,1,fertilizer use,9,38,2007,environment,38
+"sanchez et al., 2007",farm specialisation,1,crop diversification,6,17,2007,economic,18
+"sanchez et al., 2007",farm specialisation,1,crop diversification,6,17,2007,productivity,18
+"sanchez et al., 2007",farm specialisation,1,fertilizer use,6,38,2007,economic,20
+"sanchez et al., 2007",farm specialisation,1,fertilizer use,6,38,2007,productivity,20
+"sanchez et al., 2007",farm diversification,1,crop diversification,5,17,2007,economic,26
+"sanchez et al., 2007",farm diversification,1,crop diversification,5,17,2007,human condition,26
+"sanchez et al., 2007",farm diversification,1,fertilizer use,5,38,2007,economic,32
+"sanchez et al., 2007",farm diversification,1,fertilizer use,5,38,2007,human condition,32
+"sanchez et al., 2007",income diversification,1,crop diversification,8,17,2007,economic,16
+"sanchez et al., 2007",income diversification,1,crop diversification,8,17,2007,social,16
+"sanchez et al., 2007",income diversification,1,fertilizer use,8,38,2007,economic,20
+"sanchez et al., 2007",income diversification,1,fertilizer use,8,38,2007,social,20
+"sanchez et al., 2007",land management intensity,2,fertilizer use,12,38,2007,environment,21
+"sanchez et al., 2007",knowledge intensity change,2,fertilizer use,10,38,2007,human condition,26
+"sanchez et al., 2007",knowledge intensity change,2,fertilizer use,10,38,2007,social,26
+"sanchez et al., 2007",information management,2,crop diversification,7,17,2007,social,16
+"sanchez et al., 2007",information management,2,crop diversification,7,17,2007,economic,16
+"sanchez et al., 2007",crop/breed change,2,crop diversification,3,17,2007,productivity,27
+"sanchez et al., 2007",crop/breed change,2,crop diversification,3,17,2007,economic,27
+"sanchez et al., 2007",crop/breed change,2,crop diversification,3,17,2007,environment,27
+"sanchez et al., 2007",crop/breed change,2,fertilizer use,3,38,2007,productivity,36
+"sanchez et al., 2007",crop/breed change,2,fertilizer use,3,38,2007,economic,36
+"sanchez et al., 2007",crop/breed change,2,fertilizer use,3,38,2007,environment,36
+"sanchez et al., 2007",capital intensity,4,fertilizer use,1,38,2007,economic,22
+"sanchez et al., 2007",capital intensity,4,fertilizer use,1,38,2007,productivity,22
+"saucer et al.,2007",land management intensity,1,labour dynamics,12,63,2007,environment,15
+"saucer et al.,2007",input-use intensity,1,labour dynamics,9,63,2007,productivity,26
+"saucer et al.,2007",input-use intensity,1,labour dynamics,9,63,2007,environment,26
+"saucer et al.,2007",labour intensity,1,labour dynamics,11,63,2007,economic,32
+"saucer et al.,2007",labour intensity,1,labour dynamics,11,63,2007,human condition,32
+"schaafsma, ferrini and turner, 2019",land management intensity,1,fertilizer use,12,38,2019,environment,21
+"schaafsma, ferrini and turner, 2019",input-use intensity,2,fertilizer use,9,38,2019,productivity,38
+"schaafsma, ferrini and turner, 2019",input-use intensity,2,fertilizer use,9,38,2019,environment,38
+"schaafsma, ferrini and turner, 2019",farm diversification,2,fertilizer use,5,38,2019,economic,32
+"schaafsma, ferrini and turner, 2019",farm diversification,2,fertilizer use,5,38,2019,human condition,32
+"schaafsma, ferrini and turner, 2019",knowledge intensity change,2,fertilizer use,10,38,2019,human condition,26
+"schaafsma, ferrini and turner, 2019",knowledge intensity change,2,fertilizer use,10,38,2019,social,26
+"schaafsma, ferrini and turner, 2019",capital intensity,4,fertilizer use,1,38,2019,economic,22
+"schaafsma, ferrini and turner, 2019",capital intensity,4,fertilizer use,1,38,2019,productivity,22
+smale et al. 1994,land management intensity,1,fertilizer use,12,38,1994,environment,21
+smale et al. 1994,land management intensity,1,labour dynamics,12,63,1994,environment,15
+smale et al. 1994,input-use intensity,1,fertilizer use,9,38,1994,productivity,38
+smale et al. 1994,input-use intensity,1,fertilizer use,9,38,1994,environment,38
+smale et al. 1994,input-use intensity,1,labour dynamics,9,63,1994,productivity,26
+smale et al. 1994,input-use intensity,1,labour dynamics,9,63,1994,environment,26
+smale et al. 1994,labour intensity,1,fertilizer use,11,38,1994,economic,18
+smale et al. 1994,labour intensity,1,fertilizer use,11,38,1994,human condition,18
+smale et al. 1994,labour intensity,1,labour dynamics,11,63,1994,economic,32
+smale et al. 1994,labour intensity,1,labour dynamics,11,63,1994,human condition,32
+smale et al. 1994,farm specialisation,2,fertilizer use,6,38,1994,economic,20
+smale et al. 1994,farm specialisation,2,fertilizer use,6,38,1994,productivity,20
+smale et al. 1994,income diversification,2,fertilizer use,8,38,1994,economic,20
+smale et al. 1994,income diversification,2,fertilizer use,8,38,1994,social,20
+smale et al. 1994,capital intensity,4,fertilizer use,1,38,1994,economic,22
+smale et al. 1994,capital intensity,4,fertilizer use,1,38,1994,productivity,22
+smale et al. 1994,capital intensity,4,labour dynamics,1,63,1994,economic,24
+smale et al. 1994,capital intensity,4,labour dynamics,1,63,1994,productivity,24
+smale et al. 1994,crop/breed change,4,fertilizer use,3,38,1994,productivity,36
+smale et al. 1994,crop/breed change,4,fertilizer use,3,38,1994,economic,36
+smale et al. 1994,crop/breed change,4,fertilizer use,3,38,1994,environment,36
+smale et al. 1994,crop/breed change,4,labour dynamics,3,63,1994,productivity,24
+smale et al. 1994,crop/breed change,4,labour dynamics,3,63,1994,economic,24
+smale et al. 1994,crop/breed change,4,labour dynamics,3,63,1994,environment,24
+smale et al. 1994,crop/breed change,4,improved varieties,3,45,1994,productivity,24
+smale et al. 1994,crop/breed change,4,improved varieties,3,45,1994,economic,24
+smale et al. 1994,crop/breed change,4,improved varieties,3,45,1994,environment,24
+"smith et al., 2016",land management intensity,2,fertilizer use,12,38,2016,environment,21
+"smith et al., 2016",land management intensity,2,legume integration,12,72,2016,environment,16
+"smith et al., 2016",input-use intensity,2,crop diversification,9,17,2016,productivity,18
+"smith et al., 2016",input-use intensity,2,crop diversification,9,17,2016,environment,18
+"smith et al., 2016",input-use intensity,2,fertilizer use,9,38,2016,productivity,38
+"smith et al., 2016",input-use intensity,2,fertilizer use,9,38,2016,environment,38
+"smith et al., 2016",input-use intensity,2,rotations,9,91,2016,productivity,16
+"smith et al., 2016",input-use intensity,2,rotations,9,91,2016,environment,16
+"smith et al., 2016",input-use intensity,2,legume integration,9,72,2016,productivity,26
+"smith et al., 2016",input-use intensity,2,legume integration,9,72,2016,environment,26
+"smith et al., 2016",farm diversification,2,crop diversification,5,17,2016,economic,26
+"smith et al., 2016",farm diversification,2,crop diversification,5,17,2016,human condition,26
+"smith et al., 2016",farm diversification,2,fertilizer use,5,38,2016,economic,32
+"smith et al., 2016",farm diversification,2,fertilizer use,5,38,2016,human condition,32
+"smith et al., 2016",farm diversification,2,rotations,5,91,2016,economic,20
+"smith et al., 2016",farm diversification,2,rotations,5,91,2016,human condition,20
+"smith et al., 2016",farm diversification,2,legume integration,5,72,2016,economic,32
+"smith et al., 2016",farm diversification,2,legume integration,5,72,2016,human condition,32
+"smith et al., 2016",income diversification,2,crop diversification,8,17,2016,economic,16
+"smith et al., 2016",income diversification,2,crop diversification,8,17,2016,social,16
+"smith et al., 2016",income diversification,2,fertilizer use,8,38,2016,economic,20
+"smith et al., 2016",income diversification,2,fertilizer use,8,38,2016,social,20
+"smith et al., 2016",income diversification,2,legume integration,8,72,2016,economic,18
+"smith et al., 2016",income diversification,2,legume integration,8,72,2016,social,18
+"smith et al., 2016",crop/breed change,2,crop diversification,3,17,2016,productivity,27
+"smith et al., 2016",crop/breed change,2,crop diversification,3,17,2016,economic,27
+"smith et al., 2016",crop/breed change,2,crop diversification,3,17,2016,environment,27
+"smith et al., 2016",crop/breed change,2,fertilizer use,3,38,2016,productivity,36
+"smith et al., 2016",crop/breed change,2,fertilizer use,3,38,2016,economic,36
+"smith et al., 2016",crop/breed change,2,fertilizer use,3,38,2016,environment,36
+"smith et al., 2016",crop/breed change,2,legume integration,3,72,2016,productivity,30
+"smith et al., 2016",crop/breed change,2,legume integration,3,72,2016,economic,30
+"smith et al., 2016",crop/breed change,2,legume integration,3,72,2016,environment,30
+"smith et al., 2016",farm specialisation,4,crop diversification,6,17,2016,economic,18
+"smith et al., 2016",farm specialisation,4,crop diversification,6,17,2016,productivity,18
+"smith et al., 2016",farm specialisation,4,fertilizer use,6,38,2016,economic,20
+"smith et al., 2016",farm specialisation,4,fertilizer use,6,38,2016,productivity,20
+"smith et al., 2016",farm specialisation,4,legume integration,6,72,2016,economic,18
+"smith et al., 2016",farm specialisation,4,legume integration,6,72,2016,productivity,18
+"smith et al., 2016",knowledge intensity change,4,fertilizer use,10,38,2016,human condition,26
+"smith et al., 2016",knowledge intensity change,4,fertilizer use,10,38,2016,social,26
+"smith et al., 2016",knowledge intensity change,4,legume integration,10,72,2016,human condition,22
+"smith et al., 2016",knowledge intensity change,4,legume integration,10,72,2016,social,22
+"snapp et al., 2018",farm diversification,2,legume integration,5,72,2018,economic,32
+"snapp et al., 2018",farm diversification,2,legume integration,5,72,2018,human condition,32
+"snapp et al., 2018",income diversification,2,legume integration,8,72,2018,economic,18
+"snapp et al., 2018",income diversification,2,legume integration,8,72,2018,social,18
+"snapp et al., 2018",knowledge intensity change,2,legume integration,10,72,2018,human condition,22
+"snapp et al., 2018",knowledge intensity change,2,legume integration,10,72,2018,social,22
+"snapp et al., 2018",knowledge intensity change,2,market access,10,76,2018,human condition,20
+"snapp et al., 2018",knowledge intensity change,2,market access,10,76,2018,social,20
+"snapp et al., 2018",crop/breed change,2,livestock integration,3,73,2018,productivity,15
+"snapp et al., 2018",crop/breed change,2,livestock integration,3,73,2018,economic,15
+"snapp et al., 2018",crop/breed change,2,livestock integration,3,73,2018,environment,15
+"snapp et al., 2018",crop/breed change,2,legume integration,3,72,2018,productivity,30
+"snapp et al., 2018",crop/breed change,2,legume integration,3,72,2018,economic,30
+"snapp et al., 2018",crop/breed change,2,legume integration,3,72,2018,environment,30
+"snapp et al., 2018",crop/breed change,2,market access,3,76,2018,productivity,21
+"snapp et al., 2018",crop/breed change,2,market access,3,76,2018,economic,21
+"snapp et al., 2018",crop/breed change,2,market access,3,76,2018,environment,21
+"snapp et al., 2018",cooperation,2,market access,2,76,2018,social,18
+"snapp et al., 2018",cooperation,2,market access,2,76,2018,economic,18
+"snapp et al., 2018",land management intensity,4,legume integration,12,72,2018,environment,16
+"snapp et al., 2018",farm specialisation,4,legume integration,6,72,2018,economic,18
+"snapp et al., 2018",farm specialisation,4,legume integration,6,72,2018,productivity,18
+"teravest et al., 2019",land management intensity,2,labour dynamics,12,63,2019,environment,15
+"teravest et al., 2019",input-use intensity,2,labour dynamics,9,63,2019,productivity,26
+"teravest et al., 2019",input-use intensity,2,labour dynamics,9,63,2019,environment,26
+"teravest et al., 2019",input-use intensity,2,rotations,9,91,2019,productivity,16
+"teravest et al., 2019",input-use intensity,2,rotations,9,91,2019,environment,16
+"teravest et al., 2019",input-use intensity,2,crop diversification,9,17,2019,productivity,18
+"teravest et al., 2019",input-use intensity,2,crop diversification,9,17,2019,environment,18
+"teravest et al., 2019",labour intensity,2,labour dynamics,11,63,2019,economic,32
+"teravest et al., 2019",labour intensity,2,labour dynamics,11,63,2019,human condition,32
+"teravest et al., 2019",farm specialisation,2,crop diversification,6,17,2019,economic,18
+"teravest et al., 2019",farm specialisation,2,crop diversification,6,17,2019,productivity,18
+"teravest et al., 2019",farm diversification,2,conservation agriculture,5,13,2019,economic,18
+"teravest et al., 2019",farm diversification,2,conservation agriculture,5,13,2019,human condition,18
+"teravest et al., 2019",farm diversification,2,rotations,5,91,2019,economic,20
+"teravest et al., 2019",farm diversification,2,rotations,5,91,2019,human condition,20
+"teravest et al., 2019",farm diversification,2,crop diversification,5,17,2019,economic,26
+"teravest et al., 2019",farm diversification,2,crop diversification,5,17,2019,human condition,26
+"teravest et al., 2019",income diversification,2,crop diversification,8,17,2019,economic,16
+"teravest et al., 2019",income diversification,2,crop diversification,8,17,2019,social,16
+"teravest et al., 2019",knowledge intensity change,2,labour dynamics,10,63,2019,human condition,18
+"teravest et al., 2019",knowledge intensity change,2,labour dynamics,10,63,2019,social,18
+"teravest et al., 2019",knowledge intensity change,2,market access,10,76,2019,human condition,20
+"teravest et al., 2019",knowledge intensity change,2,market access,10,76,2019,social,20
+"teravest et al., 2019",information management,2,labour dynamics,7,63,2019,social,16
+"teravest et al., 2019",information management,2,labour dynamics,7,63,2019,economic,16
+"teravest et al., 2019",information management,2,crop diversification,7,17,2019,social,16
+"teravest et al., 2019",information management,2,crop diversification,7,17,2019,economic,16
+"teravest et al., 2019",crop/breed change,2,conservation agriculture,3,13,2019,productivity,24
+"teravest et al., 2019",crop/breed change,2,conservation agriculture,3,13,2019,economic,24
+"teravest et al., 2019",crop/breed change,2,conservation agriculture,3,13,2019,environment,24
+"teravest et al., 2019",crop/breed change,2,labour dynamics,3,63,2019,productivity,24
+"teravest et al., 2019",crop/breed change,2,labour dynamics,3,63,2019,economic,24
+"teravest et al., 2019",crop/breed change,2,labour dynamics,3,63,2019,environment,24
+"teravest et al., 2019",crop/breed change,2,subsidies,3,101,2019,productivity,15
+"teravest et al., 2019",crop/breed change,2,subsidies,3,101,2019,economic,15
+"teravest et al., 2019",crop/breed change,2,subsidies,3,101,2019,environment,15
+"teravest et al., 2019",crop/breed change,2,market access,3,76,2019,productivity,21
+"teravest et al., 2019",crop/breed change,2,market access,3,76,2019,economic,21
+"teravest et al., 2019",crop/breed change,2,market access,3,76,2019,environment,21
+"teravest et al., 2019",crop/breed change,2,crop diversification,3,17,2019,productivity,27
+"teravest et al., 2019",crop/breed change,2,crop diversification,3,17,2019,economic,27
+"teravest et al., 2019",crop/breed change,2,crop diversification,3,17,2019,environment,27
+"tesfaye et al., 2016",crop/breed change,2,improved varieties,3,45,2016,productivity,24
+"tesfaye et al., 2016",crop/breed change,2,improved varieties,3,45,2016,economic,24
+"tesfaye et al., 2016",crop/breed change,2,improved varieties,3,45,2016,environment,24
+"tesfaye et al., 2016",crop/breed change,1,market access,3,76,2016,productivity,21
+"tesfaye et al., 2016",crop/breed change,1,market access,3,76,2016,economic,21
+"tesfaye et al., 2016",crop/breed change,1,market access,3,76,2016,environment,21
+"tesfaye et al., 2016",crop/breed change,1,capacity building,3,8,2016,productivity,15
+"tesfaye et al., 2016",crop/breed change,1,capacity building,3,8,2016,economic,15
+"tesfaye et al., 2016",crop/breed change,1,capacity building,3,8,2016,environment,15
+"tesfaye et al., 2016",cooperation,2,market access,2,76,2016,social,18
+"tesfaye et al., 2016",cooperation,2,market access,2,76,2016,economic,18
+"tesfaye et al., 2016",knowledge intensity change,4,market access,10,76,2016,human condition,20
+"tesfaye et al., 2016",knowledge intensity change,4,market access,10,76,2016,social,20
+"tesfaye et al., 2016",knowledge intensity change,4,capacity building,10,8,2016,human condition,18
+"tesfaye et al., 2016",knowledge intensity change,4,capacity building,10,8,2016,social,18
+"thierfelder and mhlanga, 2022",land management intensity,1,legume integration,12,72,2022,environment,16
+"thierfelder and mhlanga, 2022",farm diversification,1,conservation agriculture,5,13,2022,economic,18
+"thierfelder and mhlanga, 2022",farm diversification,1,conservation agriculture,5,13,2022,human condition,18
+"thierfelder and mhlanga, 2022",farm diversification,1,rotations,5,91,2022,economic,20
+"thierfelder and mhlanga, 2022",farm diversification,1,rotations,5,91,2022,human condition,20
+"thierfelder and mhlanga, 2022",farm diversification,1,legume integration,5,72,2022,economic,32
+"thierfelder and mhlanga, 2022",farm diversification,1,legume integration,5,72,2022,human condition,32
+"thierfelder et al., 2016",crop/breed change,4,conservation agriculture,3,13,2016,productivity,24
+"thierfelder et al., 2016",crop/breed change,4,conservation agriculture,3,13,2016,economic,24
+"thierfelder et al., 2016",crop/breed change,4,conservation agriculture,3,13,2016,environment,24
+"van den berg et al., 2020",knowledge intensity change,2,capacity building,10,8,2020,human condition,18
+"van den berg et al., 2020",knowledge intensity change,2,capacity building,10,8,2020,social,18
+"van den berg et al., 2020",knowledge intensity change,2,market access,10,76,2020,human condition,20
+"van den berg et al., 2020",knowledge intensity change,2,market access,10,76,2020,social,20
+"van den berg et al., 2020",cooperation,2,market access,2,76,2020,social,18
+"van den berg et al., 2020",cooperation,2,market access,2,76,2020,economic,18
+"van den berg et al., 2020",crop/breed change,4,capacity building,3,8,2020,productivity,15
+"van den berg et al., 2020",crop/breed change,4,capacity building,3,8,2020,economic,15
+"van den berg et al., 2020",crop/breed change,4,capacity building,3,8,2020,environment,15
+"van den berg et al., 2020",crop/breed change,4,market access,3,76,2020,productivity,21
+"van den berg et al., 2020",crop/breed change,4,market access,3,76,2020,economic,21
+"van den berg et al., 2020",crop/breed change,4,market access,3,76,2020,environment,21
+van vugt 2018,capital intensity,2,fertilizer use,1,38,2018,economic,22
+van vugt 2018,capital intensity,2,fertilizer use,1,38,2018,productivity,22
+van vugt 2018,input-use intensity,2,legume integration,9,72,2018,productivity,26
+van vugt 2018,input-use intensity,2,legume integration,9,72,2018,environment,26
+van vugt 2018,input-use intensity,2,fertilizer use,9,38,2018,productivity,38
+van vugt 2018,input-use intensity,2,fertilizer use,9,38,2018,environment,38
+van vugt 2018,labour intensity,2,fertilizer use,11,38,2018,economic,18
+van vugt 2018,labour intensity,2,fertilizer use,11,38,2018,human condition,18
+van vugt 2018,farm specialisation,2,legume integration,6,72,2018,economic,18
+van vugt 2018,farm specialisation,2,legume integration,6,72,2018,productivity,18
+van vugt 2018,farm specialisation,2,fertilizer use,6,38,2018,economic,20
+van vugt 2018,farm specialisation,2,fertilizer use,6,38,2018,productivity,20
+van vugt 2018,farm diversification,2,legume integration,5,72,2018,economic,32
+van vugt 2018,farm diversification,2,legume integration,5,72,2018,human condition,32
+van vugt 2018,farm diversification,2,fertilizer use,5,38,2018,economic,32
+van vugt 2018,farm diversification,2,fertilizer use,5,38,2018,human condition,32
+van vugt 2018,land management intensity,4,legume integration,12,72,2018,environment,16
+van vugt 2018,land management intensity,4,fertilizer use,12,38,2018,environment,21
+van vugt 2018,crop/breed change,4,legume integration,3,72,2018,productivity,30
+van vugt 2018,crop/breed change,4,legume integration,3,72,2018,economic,30
+van vugt 2018,crop/breed change,4,legume integration,3,72,2018,environment,30
+van vugt 2018,crop/breed change,4,livestock integration,3,73,2018,productivity,15
+van vugt 2018,crop/breed change,4,livestock integration,3,73,2018,economic,15
+van vugt 2018,crop/breed change,4,livestock integration,3,73,2018,environment,15
+van vugt 2018,crop/breed change,4,fertilizer use,3,38,2018,productivity,36
+van vugt 2018,crop/breed change,4,fertilizer use,3,38,2018,economic,36
+van vugt 2018,crop/breed change,4,fertilizer use,3,38,2018,environment,36
+"wang et al., 2019",input-use intensity,1,fertilizer use,9,38,2019,productivity,38
+"wang et al., 2019",input-use intensity,1,fertilizer use,9,38,2019,environment,38
+"wang et al., 2019",input-use intensity,1,fertilizer use,9,52,2019,productivity,38
+"wang et al., 2019",input-use intensity,1,fertilizer use,9,52,2019,environment,38
+"wang et al., 2019",farm diversification,1,fertilizer use,5,38,2019,economic,32
+"wang et al., 2019",farm diversification,1,fertilizer use,5,38,2019,human condition,32
+"wang et al., 2019",farm diversification,1,fertilizer use,5,52,2019,economic,32
+"wang et al., 2019",farm diversification,1,fertilizer use,5,52,2019,human condition,32
+"wang et al., 2019",land management intensity,3,fertilizer use,12,38,2019,environment,21
+"wang et al., 2019",land management intensity,3,fertilizer use,12,52,2019,environment,21
+"wang et al., 2019",knowledge intensity change,3,fertilizer use,10,38,2019,human condition,26
+"wang et al., 2019",knowledge intensity change,3,fertilizer use,10,38,2019,social,26
+"wang et al., 2019",knowledge intensity change,3,fertilizer use,10,52,2019,human condition,26
+"wang et al., 2019",knowledge intensity change,3,fertilizer use,10,52,2019,social,26
+"wang et al., 2019",labour intensity,4,fertilizer use,11,38,2019,economic,18
+"wang et al., 2019",labour intensity,4,fertilizer use,11,38,2019,human condition,18
+"ward et al., 2016",crop/breed change,4,subsidies,3,101,2016,productivity,15
+"ward et al., 2016",crop/breed change,4,subsidies,3,101,2016,economic,15
+"ward et al., 2016",crop/breed change,4,subsidies,3,101,2016,environment,15
+"zulu et al., 2018",farm diversification,2,legume integration,5,72,2018,economic,32
+"zulu et al., 2018",farm diversification,2,legume integration,5,72,2018,human condition,32
+"zulu et al., 2018",income diversification,2,legume integration,8,72,2018,economic,18
+"zulu et al., 2018",income diversification,2,legume integration,8,72,2018,social,18
+"zulu et al., 2018",crop/breed change,2,livestock integration,3,73,2018,productivity,15
+"zulu et al., 2018",crop/breed change,2,livestock integration,3,73,2018,economic,15
+"zulu et al., 2018",crop/breed change,2,livestock integration,3,73,2018,environment,15
+"zulu et al., 2018",crop/breed change,2,legume integration,3,72,2018,productivity,30
+"zulu et al., 2018",crop/breed change,2,legume integration,3,72,2018,economic,30
+"zulu et al., 2018",crop/breed change,2,legume integration,3,72,2018,environment,30
+"zulu et al., 2018",crop/breed change,2,market access,3,76,2018,productivity,21
+"zulu et al., 2018",crop/breed change,2,market access,3,76,2018,economic,21
+"zulu et al., 2018",crop/breed change,2,market access,3,76,2018,environment,21
+"zulu et al., 2018",crop/breed change,2,extension service,3,27,2018,productivity,15
+"zulu et al., 2018",crop/breed change,2,extension service,3,27,2018,economic,15
+"zulu et al., 2018",crop/breed change,2,extension service,3,27,2018,environment,15
+"zulu et al., 2018",cooperation,2,market access,2,76,2018,social,18
+"zulu et al., 2018",cooperation,2,market access,2,76,2018,economic,18
+"zulu et al., 2018",land management intensity,4,legume integration,12,72,2018,environment,16
+"zulu et al., 2018",farm specialisation,4,legume integration,6,72,2018,economic,18
+"zulu et al., 2018",farm specialisation,4,legume integration,6,72,2018,productivity,18
+"zulu et al., 2018",knowledge intensity change,4,legume integration,10,72,2018,human condition,22
+"zulu et al., 2018",knowledge intensity change,4,legume integration,10,72,2018,social,22
+"zulu et al., 2018",knowledge intensity change,4,market access,10,76,2018,human condition,20
+"zulu et al., 2018",knowledge intensity change,4,market access,10,76,2018,social,20
+"zulu et al., 2018",knowledge intensity change,4,extension service,10,27,2018,human condition,20
+"zulu et al., 2018",knowledge intensity change,4,extension service,10,27,2018,social,20
+"zulu, djenontin and grabowski, 2021",knowledge intensity change,4,market access,10,76,2021,human condition,20
+"zulu, djenontin and grabowski, 2021",knowledge intensity change,4,market access,10,76,2021,social,20
+"zulu, djenontin and grabowski, 2021",cooperation,4,market access,2,76,2021,social,18
+"zulu, djenontin and grabowski, 2021",cooperation,4,market access,2,76,2021,economic,18
