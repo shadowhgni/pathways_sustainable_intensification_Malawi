@@ -2,7 +2,8 @@
 # GitHub Actions Workflow: Run R Scripts
 # Project: pathways_sustainable_intensification_Malawi
 #
-# Just runs the two R scripts - nothing more!
+# Runs the two R scripts.
+#
 # Triggers on changes to:
 #   - scripts/
 #   - data/raw/
@@ -47,8 +48,7 @@ jobs:
             libmagick++-dev \
             libcurl4-openssl-dev \
             libssl-dev \
-            libxml2-dev \
-            phantomjs
+            libxml2-dev
           sudo ldconfig
 
       - uses: r-lib/actions/setup-r@v2
