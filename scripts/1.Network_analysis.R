@@ -14,12 +14,13 @@
 # Clean global environment
 rm(list = ls())
 
-# Load required libraries
-library(igraph)          # Network analysis and graph operations
-library(tidyverse)       # Data manipulation and visualization
-library(threejs)         # Interactive 3D visualization
-library(corrplot)        # For correlation matrix visualization
-library(htmlwidgets)     # For saving interactive HTML files
+# Install required packages. 
+packages <- c("tidyverse", "igraph", "threejs", "tidygraph", 
+              "corrplot", "htmlwidgets")
+installed <- packages %in% rownames(installed.packages())
+if (any(!installed)) install.packages(packages[!installed])
+lapply(packages, library, character.only = TRUE)
+
 
 # ==============================================================================
 # SECTION 2: FILE PATH CONFIGURATION
@@ -880,7 +881,8 @@ if(nrow(all_lookups) > 0) {
 # SECTION 20: HTML INDEX - SAVED TO ../output/
 # ==============================================================================
 
-html_index <- file.path(dir_output, "index.html")
+# html_index <- file.path(dir_output, "index.html")
+html_index <- "../../output/index.html"
 html_files <- list.files(dir_output, pattern = "3D_network_.*\\.html$", full.names = FALSE)
 
 if(length(html_files) > 0) {
