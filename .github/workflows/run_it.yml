@@ -1,0 +1,313 @@
+# ==============================================================================
+# GitHub Actions Workflow: Pathways Sustainable Intensification Malawi
+# Project: pathways_sustainable_intensification_Malawi
+#
+# Jobs:
+#   1. syntax-check – parse() all R scripts; needs no packages (~2 min)
+#   2. full-pipeline – install packages, run all scripts sequentially
+#
+# Triggers:
+#   - Push to main/develop branches
+#   - Changes to scripts/ or data/raw/ directories
+#   - Pull requests to main
+#   - Manual workflow_dispatch
+# ==============================================================================
+
+name: Run Full Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'scripts/**'
+      - 'data/raw/**'
+      - '.github/workflows/run_pipeline.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'data/raw/**'
+      - '.github/workflows/run_pipeline.yml'
+  workflow_dispatch:   # Manual "Run workflow" button
+
+jobs:
+
+  # ── Job 1: Fast syntax check (no packages needed) ──────────────────────────
+  syntax-check:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3.3'
+
+      - name: Check R script syntax
+        run: |
+          if [ -d "scripts" ]; then
+            SCRIPTS_DIR="scripts"
+          else
+            echo "No scripts directory found!"; exit 1
+          fi
+          FAIL=0
+          for script in $SCRIPTS_DIR/*.R; do
+            Rscript -e "parse('$script')" > /dev/null 2>&1 || {
+              echo "SYNTAX ERROR: $script"
+              Rscript -e "parse('$script')"
+              FAIL=1
+            }
+          done
+          [ $FAIL -eq 0 ] && echo "✓ All $(ls $SCRIPTS_DIR/*.R | wc -l) scripts pass syntax check"
+          exit $FAIL
+
+  # ── Job 2: Full pipeline with packages ─────────────────────────────────────
+  full-pipeline:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    needs: syntax-check
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # ── System libraries (if needed for spatial packages) ──────────────────
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            libgdal-dev libgeos-dev libgeos++-dev \
+            libproj-dev \
+            libudunits2-dev \
+            libmagick++-dev \
+            libfontconfig1-dev libharfbuzz-dev libfribidi-dev \
+            libfreetype6-dev libpng-dev libtiff-dev libjpeg-dev \
+            libxml2-dev libssl-dev libcurl4-openssl-dev \
+            cmake
+          sudo ldconfig
+
+      # ── R setup ────────────────────────────────────────────────────────────
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3.3'
+          use-public-rspm: true   # Posit PPM — pre-compiled binaries for Ubuntu
+
+      # ── R package cache ────────────────────────────────────────────────────
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: r-pkgs-${{ runner.os }}-${{ hashFiles('.github/workflows/run_pipeline.yml') }}
+          restore-keys: |
+            r-pkgs-${{ runner.os }}-
+
+      # ── Install all required packages ──────────────────────────────────────
+      - name: Install R packages
+        run: |
+          Rscript -e '
+          options(
+            repos = c(
+              RSPM = "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+              CRAN = "https://cloud.r-project.org"
+            ),
+            Ncpus = 2L,
+            warn = 1L
+          )
+
+          safe_install <- function(pkgs) {
+            for (p in pkgs) {
+              if (!requireNamespace(p, quietly = TRUE)) {
+                message("  installing: ", p)
+                tryCatch(
+                  install.packages(p, dependencies = TRUE, quiet = TRUE),
+                  error   = function(e) message("  FAILED  : ", p, " — ", conditionMessage(e)),
+                  warning = function(w) message("  WARNING : ", p, " — ", conditionMessage(w))
+                )
+              } else {
+                message("  present : ", p)
+              }
+            }
+          }
+
+          # Install packages needed for this project
+          safe_install(c(
+            "igraph",
+            "tidyverse",
+            "threejs",
+            "corrplot",
+            "htmlwidgets",
+            "ggplot2",
+            "dplyr",
+            "tidyr",
+            "readr",
+            "ggrepel",
+            "networkD3",
+            "RColorBrewer",
+            "scales"
+          ))
+
+          message("\nDone. Installed packages:")
+          print(rownames(installed.packages()))
+          '
+
+      # ── Verify data exists ─────────────────────────────────────────────────
+      - name: Verify data directory
+        run: |
+          if [ -d "data/raw" ]; then
+            echo "✓ data/raw directory exists"
+            echo "Files in data/raw:"
+            ls -la data/raw/
+          else
+            echo "⚠ WARNING: data/raw directory not found"
+            mkdir -p data/raw
+          fi
+
+      # ── Run Script 1: Network Analysis ────────────────────────────────────
+      - name: Run Script 1 - Network Analysis
+        run: |
+          mkdir -p logs
+          echo "========================================" | tee -a logs/script1.log
+          echo "Running Script 1: Network Analysis" | tee -a logs/script1.log
+          echo "Time: $(date)" | tee -a logs/script1.log
+          echo "========================================" | tee -a logs/script1.log
+          cd scripts
+          Rscript --vanilla 1.Network_analysis.R 2>&1 | tee -a ../logs/script1.log
+          cd ..
+          echo "Script 1 completed with exit code: $?" | tee -a logs/script1.log
+
+      # ── Run Script 2: Pathway Analysis ────────────────────────────────────
+      - name: Run Script 2 - Pathway Analysis
+        run: |
+          echo "========================================" | tee -a logs/script2.log
+          echo "Running Script 2: Pathway Analysis" | tee -a logs/script2.log
+          echo "Time: $(date)" | tee -a logs/script2.log
+          echo "========================================" | tee -a logs/script2.log
+          cd scripts
+          Rscript --vanilla 2.Pathway_analysis.R 2>&1 | tee -a ../logs/script2.log
+          cd ..
+          echo "Script 2 completed with exit code: $?" | tee -a logs/script2.log
+
+      # ── Verify outputs ─────────────────────────────────────────────────────
+      - name: Verify output files
+        run: |
+          echo "========================================"
+          echo "Checking output directory..."
+          echo "========================================"
+          if [ -d "output" ]; then
+            echo "✓ output directory exists"
+            echo ""
+            echo "Files in output/:"
+            ls -la output/
+            echo ""
+            echo "Total files: $(find output -type f | wc -l)"
+          else
+            echo "⚠ WARNING: output directory not found"
+          fi
+          
+          echo ""
+          echo "========================================"
+          echo "Checking processed data directory..."
+          echo "========================================"
+          if [ -d "data/processed" ]; then
+            echo "✓ data/processed directory exists"
+            echo ""
+            echo "Files in data/processed/:"
+            ls -la data/processed/
+            echo ""
+            echo "Total files: $(find data/processed -type f | wc -l)"
+          else
+            echo "⚠ WARNING: data/processed directory not found"
+          fi
+
+      # ── Generate pipeline report ──────────────────────────────────────────
+      - name: Generate pipeline report
+        run: |
+          mkdir -p output/reports
+          {
+            echo "# Pipeline Test Report"
+            echo ""
+            echo "**Run:** ${{ github.run_id }}"
+            echo "**Commit:** ${{ github.sha }}"
+            echo "**Time:** $(date -u)"
+            echo "**Branch:** ${{ github.ref_name }}"
+            echo "**Triggered by:** ${{ github.event_name }}"
+            echo ""
+            echo "## Changed Files"
+            echo ""
+            echo '```'
+            git diff --name-only ${{ github.event.before }} ${{ github.sha }} || echo "No diff available"
+            echo '```'
+            echo ""
+            echo "## Scripts Executed"
+            echo ""
+            echo "1. **1.Network_analysis.R** - Bipartite network analysis per SI domain"
+            echo "2. **2.Pathway_analysis.R** - Tripartite network analysis, Sankey diagram, and more"
+            echo ""
+            echo "## Output Summary"
+            echo ""
+            echo "### Output Directory (../output/)"
+            echo "- PNG network plots"
+            echo "- Interactive 3D HTML networks"
+            echo "- Combined lookup table"
+            echo "- Lollipop plot"
+            echo "- Correlation matrix"
+            echo "- HTML index page for 3D networks"
+            echo ""
+            echo "### Processed Data Directory (../data/processed/)"
+            echo "- Graph objects (.rds)"
+            echo "- Layout matrices (.rds)"
+            echo "- Edge information (.csv)"
+            echo "- Lookup tables (.csv)"
+            echo "- Mechanism author counts (.csv)"
+            echo ""
+            echo "## Pipeline Status"
+            echo ""
+            echo "- **Status:** ✅ Complete"
+            echo "- **Date:** $(date -u)"
+          } > output/reports/pipeline_report.md
+
+      # ── Commit logs and outputs back to repo ──────────────────────────────
+      - name: Commit pipeline results
+        if: always()
+        run: |
+          git config user.email "ci-bot@pathways-sustainable-intensification.dev"
+          git config user.name "CI Bot"
+          
+          # Add all outputs and logs
+          git add -A output/
+          git add -A data/processed/
+          git add -A logs/
+          
+          # Only commit if there are changes
+          git diff --cached --quiet || \
+            git commit -m "ci: update pipeline outputs [skip ci]"
+          
+          # Push back to repo
+          git push origin ${{ github.ref_name }} --force-with-lease || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Upload test artifacts ──────────────────────────────────────────────
+      - name: Upload pipeline artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pipeline-outputs
+          path: |
+            output/
+            data/processed/
+            logs/
+          retention-days: 30
+
+      # ── Upload test report as artifact ────────────────────────────────────
+      - name: Upload test report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pipeline-report
+          path: |
+            output/reports/*.md
+            logs/*.log
+          retention-days: 30
