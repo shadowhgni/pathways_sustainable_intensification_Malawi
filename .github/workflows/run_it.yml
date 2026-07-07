@@ -1,6 +1,5 @@
 # ==============================================================================
 # GitHub Actions Workflow: Pathways Sustainable Intensification Malawi
-# Project: pathways_sustainable_intensification_Malawi
 #
 # Jobs:
 #   1. syntax-check – parse() all R scripts
@@ -33,6 +32,8 @@ on:
 jobs:
   run-scripts:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     timeout-minutes: 30
 
     steps:
@@ -81,6 +82,7 @@ jobs:
           ), dependencies = TRUE)
           '
 
+      # --- RUN SCRIPTS ---
       - name: Run Script 1 - Network Analysis
         run: |
           cd scripts
@@ -100,3 +102,15 @@ jobs:
             output/
             data/processed/
           retention-days: 7
+          
+      # --- COMMIT OUTPUTS BACK TO REPO ---
+      - name: Commit outputs to repo
+        if: always()
+        run: |
+          git config user.email "ci-bot@pathways-sustainable-intensification.dev"
+          git config user.name "CI Bot"
+          git add -A output/ data/processed/
+          git diff --cached --quiet || git commit -m "ci: update outputs [skip ci]"
+          git push origin ${{ github.ref_name }} --force-with-lease || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
