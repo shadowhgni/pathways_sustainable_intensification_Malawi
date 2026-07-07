@@ -10,7 +10,7 @@
 # Clean global environment
 rm(list = ls())
 
-# Install necessary packages
+# Install required packages. Note that further packages will be installed by "webshot".
 packages <- c("tidyverse", "igraph", "ggraph", "tidygraph", 
               "webshot", "htmlwidgets",
               "networkD3", "DiagrammeR", "deSolve",
@@ -31,7 +31,7 @@ output_path6 <- '../output/SIMFS_Sankey_diagram.png'
 output_path7 <- '../data/processed/SIMFS_Sankey_diagram.csv'
 
 # Load data
-dat <- read.csv('../data/raw/other_resources/SIMFS_mechanisms_01.csv')
+dat <- read.csv('../data/raw/SIMFS_mechanisms.csv')
 
 # ==============================================================================
 # data wrangling
