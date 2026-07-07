@@ -24,8 +24,10 @@ pathways_sustainable_intensification_Malawi/
 └── README.md
 ```
 
-## 🔧 Installation
+## 🔧 Installation and use
+Software requirements: R >= 4.3.3 
 A list of required R packages can be found at the top of each script.
+
 
 ## 📚 Citation
 
