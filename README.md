@@ -1,10 +1,10 @@
-# 🌍 Pathways to Sustainable INtensification in Malawi
+# 🌍 Pathways to Sustainable Intensification in Malawi
 
 ---
 
 ## 📋 Overview
 
-This repository reproduces the analysis associated with the manuscript entitled "Beyond Inputs: A network based meta analysis mapping pathways to Sustainable Intensification in Malawi's smallholder farming systems. The core is a network analysis of Mechanisms and Attributes across five Sustainable Intensification (SI) domains. Read associated paper for further details.
+This repository reproduces the analysis associated with the manuscript entitled "Beyond Inputs: A network based meta analysis mapping pathways to Sustainable Intensification in Malawi's smallholder farming systems. The core is a network analysis of Mechanisms and their Attributes across five Sustainable Intensification (SI) domains. Read associated paper for further details.
 
 
 ## 📁 Project Structure
