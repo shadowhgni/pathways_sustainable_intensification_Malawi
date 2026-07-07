@@ -25,11 +25,11 @@ library(htmlwidgets)     # For saving interactive HTML files
 # SECTION 2: FILE PATH CONFIGURATION
 # ==============================================================================
 
-# Set working directory. Replace "getwd()" with the local path to the "scripts" directory.
+# Set working directory. Replace "getwd()" with the local path to "scripts" directory.
 setwd(getwd()) 
 
 # Define input file path, and directories for intermediate files and final outputs 
-input_file <- '../data/raw/other_resources/SIMFS_mechanisms.csv'
+input_file <- '../data/raw/SIMFS_mechanisms.csv'
 dir_output <- '../output/'           
 dir_processed <- '../data/processed/' 
 
