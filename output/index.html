@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive 3D Networks - 10+ Occurrence Filter</title>
+    <style>
+        body { 
+            font-family: "Segoe UI", Arial, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin-top: -5px;
+            margin-bottom: 30px;
+        }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+            gap: 25px; 
+            margin-top: 20px;
+        }
+        .card { 
+            background: white; 
+            border-radius: 12px; 
+            padding: 20px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e8ecf1;
+        }
+        .card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .card h3 { 
+            margin: 0 0 8px 0; 
+            color: #2c3e50;
+            font-size: 1.3em;
+        }
+        .card .stats { 
+            font-size: 0.9em; 
+            color: #7f8c8d; 
+            margin: 5px 0 12px 0;
+            padding: 8px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+        .card .link { 
+            display: inline-block; 
+            text-decoration: none; 
+            color: white; 
+            background: #3498db; 
+            padding: 10px 20px; 
+            border-radius: 6px; 
+            font-weight: 600;
+            transition: background 0.3s ease;
+            margin-top: 5px;
+        }
+        .card .link:hover { 
+            background: #2980b9; 
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+        .badge-mechanism { background: #4A90D9; color: white; }
+        .badge-attribute { background: #50C878; color: white; }
+        .instructions {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #3498db;
+        }
+        .instructions ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        .instructions li {
+            margin: 5px 0;
+            color: #34495e;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e8ecf1;
+            color: #95a5a6;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .legend-icon {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌐 Interactive 3D Network Visualizations</h1>
+        <div class="subtitle">10+ Occurrence Filter • Sustainable Intensification Mechanisms</div>
+        
+        <div class="instructions">
+            <strong>🖱️ How to interact with the 3D networks:</strong>
+            <ul>
+                <li><strong>Drag</strong> with mouse to rotate the network in 3D</li>
+                <li><strong>Scroll</strong> to zoom in and out</li>
+                <li><strong>Hover</strong> over nodes to see full names and codes</li>
+                <li><strong><span class="legend-icon" style="background:#4A90D9;"></span> Blue spheres</strong> = Mechanisms (numbered 1, 2, 3...)</li>
+                <li><strong><span class="legend-icon" style="background:#50C878;"></span> Green spheres</strong> = Attributes (3-letter codes)</li>
+                <li><strong>Edge thickness</strong> represents frequency of co-occurrence</li>
+                <li>The <span class="highlight">codes/numbers</span> are clearly displayed on each node</li>
+                <li><strong>Full network</strong> showing all nodes</li>
+            </ul>
+        </div>
+        
+        <div class="grid">
+        <div class="card">
+            <h3>Economic</h3>
+            <div class="stats">
+                <span class="badge badge-mechanism">🔵 12 M</span>
+                <span class="badge badge-attribute">🟩 55 A</span>
+                <span style="margin-left: 8px;">Nodes: 67 | Edges: 198</span>
+            </div>
+            <a href="3D_network_economic.html" target="_blank" class="link">🔬 Open 3D Network</a>
+        </div>
+        <div class="card">
+            <h3>Environment</h3>
+            <div class="stats">
+                <span class="badge badge-mechanism">🔵 4 M</span>
+                <span class="badge badge-attribute">🟩 50 A</span>
+                <span style="margin-left: 8px;">Nodes: 54 | Edges: 102</span>
+            </div>
+            <a href="3D_network_environment.html" target="_blank" class="link">🔬 Open 3D Network</a>
+        </div>
+        <div class="card">
+            <h3>Human condition</h3>
+            <div class="stats">
+                <span class="badge badge-mechanism">🔵 2 M</span>
+                <span class="badge badge-attribute">🟩 22 A</span>
+                <span style="margin-left: 8px;">Nodes: 24 | Edges: 31</span>
+            </div>
+            <a href="3D_network_human_condition.html" target="_blank" class="link">🔬 Open 3D Network</a>
+        </div>
+        <div class="card">
+            <h3>Productivity</h3>
+            <div class="stats">
+                <span class="badge badge-mechanism">🔵 6 M</span>
+                <span class="badge badge-attribute">🟩 50 A</span>
+                <span style="margin-left: 8px;">Nodes: 56 | Edges: 128</span>
+            </div>
+            <a href="3D_network_productivity.html" target="_blank" class="link">🔬 Open 3D Network</a>
+        </div>
+        <div class="card">
+            <h3>Social</h3>
+            <div class="stats">
+                <span class="badge badge-mechanism">🔵 7 M</span>
+                <span class="badge badge-attribute">🟩 36 A</span>
+                <span style="margin-left: 8px;">Nodes: 43 | Edges: 79</span>
+            </div>
+            <a href="3D_network_social.html" target="_blank" class="link">🔬 Open 3D Network</a>
+        </div>
+        </div>
+        <div class="footer">
+            <p>All networks include weighted edges (thicker = stronger relationship)</p>
+            <p>PNG uses MaxMin placement (non-overlapping nodes)</p>
+            <p>3D uses force-directed layout (all nodes shown)</p>
+            <p>Generated with R • July 07, 2026</p>
+            <p style="font-size: 0.85em; margin-top: 10px;">
+                📁 Output: ../output/ • 📊 Intermediary files: ../data/processed/
+            </p>
+        </div>
+    </div>
+</body>
+</html>
