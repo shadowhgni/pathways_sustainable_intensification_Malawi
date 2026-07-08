@@ -1139,6 +1139,25 @@ cat("  - Attributes: Green spheres with 3-letter codes\n")
 cat("  - Edge thickness = co-occurrence frequency\n")
 cat("============================================================\n")
 
+# display the list of mechanisms and attributes per doamins (for PNG captions)
+for (dom in unique(all_lookups$domain)) {
+  cat(sprintf("### **%s Domain**\n", tools::toTitleCase(dom)))
+  
+  # Subset data for the current domain
+  dom_data <- all_lookups[all_lookups$domain == dom, ]
+  
+  # Capitalize the first letter of each full name
+  clean_names <- paste0(toupper(substr(dom_data$full_name, 1, 1)), 
+                        substr(dom_data$full_name, 2, nchar(dom_data$full_name)))
+  
+  # Combine names with their labels
+  formatted_elements <- sprintf("%s (%s)", clean_names, dom_data$display_label)
+  
+  # Collapse all elements with a comma and print
+  cat(paste(formatted_elements, collapse = ", "), "\n\n")
+}
+
+
 # END OF SCRIPT
 # ==============================================================================
 "# test" 
