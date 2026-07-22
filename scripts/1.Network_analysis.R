@@ -1,10 +1,10 @@
 # ==============================================================================
-# SCRIPT: SIMFS Mechanisms Network Analysis 
+# SCRIPT : SIMFS Mechanisms Network Analysis 
 # PURPOSE: Analyze relationships between Mechanisms and Attributes in Sustainable
 #          Intensification (SI) research 
 #          
 # AUTHORS: Chimonyo, V.G.P, Hougni, D.G.J.M.
-# DATE: 2026-07-07
+# DATE   : 2026-07-07
 # ==============================================================================
 
 # ==============================================================================
@@ -51,7 +51,7 @@ dat <- read.csv(input_file)
 
 # Convert all text to lowercase for consistency
 dat$Mechanism <- tolower(dat$Mechanism)
-dat$R_Attribute <- tolower(dat$R_Attribute)
+dat$Attribute <- tolower(dat$Attribute)
 dat$SI_Domain <- tolower(dat$SI_Domain)
 
 # ==============================================================================
@@ -60,13 +60,13 @@ dat$SI_Domain <- tolower(dat$SI_Domain)
 
 # Count occurrences of each mechanism-attribute pair
 mechanism_attribute_counts <- dat |>
-  group_by(Mechanism, R_Attribute) |>
+  group_by(Mechanism, Attribute) |>
   tally() |>
   filter(n >= 10)
 
 # Filter the original data
 filtered_dat <- dat |>
-  inner_join(mechanism_attribute_counts, by = c("Mechanism", "R_Attribute")) |>
+  inner_join(mechanism_attribute_counts, by = c("Mechanism", "Attribute")) |>
   distinct()
 
 # ==============================================================================
@@ -126,7 +126,7 @@ prepare_domain_data <- function(data, domain) {
   domain_data <- data |> filter(SI_Domain == domain)
   
   pair_counts <- domain_data |>
-    group_by(Mechanism, R_Attribute) |>
+    group_by(Mechanism, Attribute) |>
     tally()
   
   return(list(
@@ -411,9 +411,9 @@ get_two_stage_layout <- function(graph, plot_width = 14, plot_height = 11) {
 create_weighted_graph <- function(domain_data, pair_counts) {
   # Extract unique edges
   edges_data <- domain_data |>
-    select(Mechanism, R_Attribute) |>
-    filter(Mechanism != R_Attribute) |>
-    distinct(Mechanism, R_Attribute)
+    select(Mechanism, Attribute) |>
+    filter(Mechanism != Attribute) |>
+    distinct(Mechanism, Attribute)
   
   if(nrow(edges_data) == 0) {
     return(NULL)
@@ -421,7 +421,7 @@ create_weighted_graph <- function(domain_data, pair_counts) {
   
   # Create graph with weights
   edges_with_weights <- edges_data |>
-    left_join(pair_counts, by = c("Mechanism", "R_Attribute")) |>
+    left_join(pair_counts, by = c("Mechanism", "Attribute")) |>
     mutate(weight = ifelse(is.na(n), 1, n))
   
   g <- graph_from_data_frame(edges_with_weights, directed = FALSE)
@@ -429,7 +429,7 @@ create_weighted_graph <- function(domain_data, pair_counts) {
   
   # Identify node types
   all_mechanisms <- unique(edges_data$Mechanism)
-  all_attributes <- unique(edges_data$R_Attribute)
+  all_attributes <- unique(edges_data$Attribute)
   
   V(g)$is_mechanism <- V(g)$name %in% all_mechanisms
   V(g)$is_attribute <- V(g)$name %in% all_attributes
@@ -1160,4 +1160,3 @@ for (dom in unique(all_lookups$domain)) {
 
 # END OF SCRIPT
 # ==============================================================================
-"# test" 

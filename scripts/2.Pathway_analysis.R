@@ -1,10 +1,10 @@
 # ==============================================================================
-# SCRIPT: SIMFS Mechanisms Network Analysis 
+# SCRIPT : SIMFS Mechanisms Network Analysis 
 # PURPOSE: Analyze relationships between Mechanisms, Attributes, and Domains of 
 #          Sustainable Intensification (SI) research 
 #          
-# AUTHOR: Chimonyo, V.G.P., Hougni, D.G.J.M.
-# DATE: 2026-07-07
+# AUTHORS: Chimonyo, V.G.P., Hougni, D.G.J.M.
+# DATE   : 2026-07-07
 # ==============================================================================
 
 # Clean global environment
