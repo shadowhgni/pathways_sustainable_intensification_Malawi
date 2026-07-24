@@ -4,7 +4,7 @@
 #          Intensification (SI) research 
 #          
 # AUTHORS: Chimonyo, V.G.P, Hougni, D.G.J.M.
-# DATE   : 2026-07-07
+# DATE   : 2026-07-24
 # ==============================================================================
 
 # ==============================================================================
@@ -694,7 +694,7 @@ save_intermediary_files <- function(g, layout, layout_3d, domain_name, processed
 }
 
 # ==============================================================================
-# SECTION 15: CREATE ALL NETWORKS
+# SECTION 15: CREATE ALL NETWORKS (UPDATED - adds metrics to lookup)
 # ==============================================================================
 
 create_all_networks <- function(g, domain_name, output_dir, processed_dir) {
@@ -715,6 +715,31 @@ create_all_networks <- function(g, domain_name, output_dir, processed_dir) {
     full_name = V(g)$full_name,
     stringsAsFactors = FALSE
   )
+  
+  # ---- ADD METRICS TO LOOKUP TABLE ----
+  # Calculate degree, closeness, betweenness for ALL nodes
+  if(ecount(g) > 0 && "weight" %in% edge_attr_names(g)) {
+    # Weighted metrics
+    degree_vals <- strength(g, weights = E(g)$weight)
+    inv_weights <- 1 / E(g)$weight
+    betweenness_vals <- betweenness(g, weights = inv_weights)
+    if(is_connected(g)) {
+      closeness_vals <- closeness(g, weights = inv_weights)
+    } else {
+      closeness_vals <- rep(NA, vcount(g))
+    }
+  } else {
+    # Unweighted metrics
+    degree_vals <- degree(g)
+    betweenness_vals <- betweenness(g)
+    closeness_vals <- closeness(g)
+  }
+  
+  # Add metrics columns to lookup_table
+  lookup_table$degree <- round(as.numeric(degree_vals), 2)
+  lookup_table$closeness <- round(as.numeric(closeness_vals), 4)
+  lookup_table$betweenness <- round(as.numeric(betweenness_vals), 2)
+  # ---- END METRICS ADDITION ----
   
   return(list(
     static = static_result,
@@ -841,7 +866,7 @@ for (domain in si_domains) {
   })
   
   if(!is.null(result)) {
-    # Collect lookup table
+    # Collect lookup table (now with metrics)
     if(!is.null(result$lookup)) {
       all_lookups <- rbind(all_lookups, result$lookup)
     }
@@ -1157,6 +1182,54 @@ for (dom in unique(all_lookups$domain)) {
   cat(paste(formatted_elements, collapse = ", "), "\n\n")
 }
 
+# View metrics
+# 1. Create a custom function to extract metrics from a single graph object
+extract_mechanism_metrics <- function(g, domain_name) {
+  # Get only the mechanism node names
+  mechanism_names <- V(g)$name[V(g)$is_mechanism == TRUE]
+  
+  # Calculate metrics safely
+  mech_degree_unweighted <- degree(g, v = mechanism_names)
+  mech_degree_weighted   <- strength(g, v = mechanism_names, weights = E(g)$weight)
+  
+  all_eigen <- eigen_centrality(g, weights = E(g)$weight)$vector
+  mech_eigen <- all_eigen[mechanism_names]
+  
+  # Invert weights for betweenness if they represent connection strength
+  inv_weights <- 1 / E(g)$weight
+  mech_betweenness <- betweenness(g, v = mechanism_names, directed = FALSE, weights = inv_weights)
+  
+  # Return a clean data frame for this specific domain
+  data.frame(
+    Domain = domain_name,
+    Mechanism = mechanism_names,
+    Degree_Unweighted = mech_degree_unweighted,
+    Degree_Weighted = mech_degree_weighted,
+    Eigen_Centrality = mech_eigen,
+    Betweenness = mech_betweenness,
+    row.names = NULL
+  )
+}
+
+# 2. Identify all top-level domains in your list (e.g., "productivity", "social")
+domains <- names(network_results)
+
+# 3. Loop through each domain, target the static graph, and bind the results
+all_domain_metrics <- do.call(rbind, lapply(domains, function(dom) {
+  
+  # Extract the specific static graph path from your list
+  target_graph <- network_results[[dom]]$static$graph
+  
+  # Run the extraction function if the graph exists
+  if (!is.null(target_graph)) {
+    return(extract_mechanism_metrics(target_graph, dom))
+  } else {
+    return(NULL)
+  }
+}))
+
+# 4. View the compiled multi-graph master table
+print(all_domain_metrics)
 
 # END OF SCRIPT
 # ==============================================================================
