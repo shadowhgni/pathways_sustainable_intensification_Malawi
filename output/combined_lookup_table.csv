@@ -1,100 +1,100 @@
-"domain","node_type","display_label","full_name"
-"economic","Mechanism","1","capital intensity"
-"economic","Mechanism","3","cooperation"
-"economic","Mechanism","9","crop/breed change and product differentiation"
-"economic","Mechanism","6","farm consolidation or fragmentation"
-"economic","Mechanism","7","farm diversification"
-"economic","Mechanism","8","farm specialisation"
-"economic","Mechanism","2","improved information management"
-"economic","Mechanism","10","income diversification"
-"economic","Mechanism","5","labour intensity"
-"economic","Mechanism","4","vertical integration"
-"economic","Attribute","AGR","agroforestry"
-"economic","Attribute","CAP","capacity building"
-"economic","Attribute","CON","conservation agriculture"
-"economic","Attribute","CRE","credit access"
-"economic","Attribute","CRO","crop diversification"
-"economic","Attribute","EXT","extension services"
-"economic","Attribute","FER","fertilizer use"
-"economic","Attribute","IMP","improved varieties"
-"economic","Attribute","INO","inorganic fertilizer"
-"economic","Attribute","INT","intercropping"
-"economic","Attribute","LAB","labor dynamics"
-"economic","Attribute","LEG","legume integration"
-"economic","Attribute","LIV","livestock integration"
-"economic","Attribute","MAR","market access"
-"economic","Attribute","ROT","rotations"
-"economic","Attribute","SUB","subsidies"
-"environment","Mechanism","3","crop/breed change and product differentiation"
-"environment","Mechanism","1","input-use intensity"
-"environment","Mechanism","2","land management intensity"
-"environment","Attribute","AGR","agroforestry"
-"environment","Attribute","CAP","capacity building"
-"environment","Attribute","CON","conservation agriculture"
-"environment","Attribute","CRE","credit access"
-"environment","Attribute","CRO","crop diversification"
-"environment","Attribute","EXT","extension services"
-"environment","Attribute","FER","fertilizer use"
-"environment","Attribute","IMP","improved varieties"
-"environment","Attribute","INO","inorganic fertilizer"
-"environment","Attribute","INT","intercropping"
-"environment","Attribute","LAB","labor dynamics"
-"environment","Attribute","LEG","legume integration"
-"environment","Attribute","LIV","livestock integration"
-"environment","Attribute","MAR","market access"
-"environment","Attribute","ROT","rotations"
-"environment","Attribute","SUB","subsidies"
-"human condition","Mechanism","3","farm diversification"
-"human condition","Mechanism","1","knowledge intensity change"
-"human condition","Mechanism","2","labour intensity"
-"human condition","Attribute","AGR","agroforestry"
-"human condition","Attribute","CAP","capacity building"
-"human condition","Attribute","CON","conservation agriculture"
-"human condition","Attribute","CRO","crop diversification"
-"human condition","Attribute","EXT","extension services"
-"human condition","Attribute","FER","fertilizer use"
-"human condition","Attribute","INO","inorganic fertilizer"
-"human condition","Attribute","INT","intercropping"
-"human condition","Attribute","LAB","labor dynamics"
-"human condition","Attribute","LEG","legume integration"
-"human condition","Attribute","LIV","livestock integration"
-"human condition","Attribute","MAR","market access"
-"human condition","Attribute","ROT","rotations"
-"productivity","Mechanism","1","capital intensity"
-"productivity","Mechanism","4","crop/breed change and product differentiation"
-"productivity","Mechanism","3","farm specialisation"
-"productivity","Mechanism","2","input-use intensity"
-"productivity","Attribute","AGR","agroforestry"
-"productivity","Attribute","CAP","capacity building"
-"productivity","Attribute","CON","conservation agriculture"
-"productivity","Attribute","CRE","credit access"
-"productivity","Attribute","CRO","crop diversification"
-"productivity","Attribute","EXT","extension services"
-"productivity","Attribute","FER","fertilizer use"
-"productivity","Attribute","IMP","improved varieties"
-"productivity","Attribute","INO","inorganic fertilizer"
-"productivity","Attribute","INT","intercropping"
-"productivity","Attribute","LAB","labor dynamics"
-"productivity","Attribute","LEG","legume integration"
-"productivity","Attribute","LIV","livestock integration"
-"productivity","Attribute","MAR","market access"
-"productivity","Attribute","ROT","rotations"
-"productivity","Attribute","SUB","subsidies"
-"social","Mechanism","3","cooperation"
-"social","Mechanism","5","farm consolidation or fragmentation"
-"social","Mechanism","2","improved information management"
-"social","Mechanism","6","income diversification"
-"social","Mechanism","1","knowledge intensity change"
-"social","Mechanism","4","vertical integration"
-"social","Attribute","AGR","agroforestry"
-"social","Attribute","CAP","capacity building"
-"social","Attribute","CON","conservation agriculture"
-"social","Attribute","CRO","crop diversification"
-"social","Attribute","EXT","extension services"
-"social","Attribute","FER","fertilizer use"
-"social","Attribute","INO","inorganic fertilizer"
-"social","Attribute","INT","intercropping"
-"social","Attribute","LAB","labor dynamics"
-"social","Attribute","LEG","legume integration"
-"social","Attribute","MAR","market access"
-"social","Attribute","SUB","subsidies"
+"domain","node_type","display_label","full_name","degree","closeness","betweenness"
+"economic","Mechanism","1","capital intensity",51,0.1525,47
+"economic","Mechanism","3","cooperation",15,0.1093,3
+"economic","Mechanism","9","crop/breed change and product differentiation",83,0.1825,55
+"economic","Mechanism","6","farm consolidation or fragmentation",5,0.094,0
+"economic","Mechanism","7","farm diversification",97,0.1848,109.5
+"economic","Mechanism","8","farm specialisation",63,0.1616,8.5
+"economic","Mechanism","2","improved information management",43,0.1388,4
+"economic","Mechanism","10","income diversification",29,0.1306,0
+"economic","Mechanism","5","labour intensity",32,0.1403,4
+"economic","Mechanism","4","vertical integration",11,0.0927,0
+"economic","Attribute","AGR","agroforestry",5,0.0979,0
+"economic","Attribute","CAP","capacity building",21,0.1071,0
+"economic","Attribute","CON","conservation agriculture",28,0.1422,0
+"economic","Attribute","CRE","credit access",15,0.1079,0
+"economic","Attribute","CRO","crop diversification",38,0.1528,4
+"economic","Attribute","EXT","extension services",29,0.1345,0
+"economic","Attribute","FER","fertilizer use",47,0.1601,4
+"economic","Attribute","IMP","improved varieties",4,0.0871,0
+"economic","Attribute","INO","inorganic fertilizer",7,0.1131,0
+"economic","Attribute","INT","intercropping",16,0.121,0
+"economic","Attribute","LAB","labor dynamics",67,0.1714,67
+"economic","Attribute","LEG","legume integration",54,0.1711,35
+"economic","Attribute","LIV","livestock integration",15,0.1105,0
+"economic","Attribute","MAR","market access",46,0.1492,39
+"economic","Attribute","ROT","rotations",19,0.1314,0
+"economic","Attribute","SUB","subsidies",18,0.1152,7
+"environment","Mechanism","3","crop/breed change and product differentiation",83,0.274,41.5
+"environment","Mechanism","1","input-use intensity",107,0.3188,81.5
+"environment","Mechanism","2","land management intensity",76,0.2495,15
+"environment","Attribute","AGR","agroforestry",6,0.1675,0
+"environment","Attribute","CAP","capacity building",9,0.1626,0
+"environment","Attribute","CON","conservation agriculture",26,0.2304,0
+"environment","Attribute","CRE","credit access",9,0.1626,0
+"environment","Attribute","CRO","crop diversification",25,0.2267,0
+"environment","Attribute","EXT","extension services",11,0.1867,0
+"environment","Attribute","FER","fertilizer use",35,0.2695,0
+"environment","Attribute","IMP","improved varieties",4,0.1266,0
+"environment","Attribute","INO","inorganic fertilizer",7,0.1797,0
+"environment","Attribute","INT","intercropping",10,0.1758,0
+"environment","Attribute","LAB","labor dynamics",34,0.2656,0
+"environment","Attribute","LEG","legume integration",39,0.2801,21
+"environment","Attribute","LIV","livestock integration",5,0.1419,0
+"environment","Attribute","MAR","market access",12,0.1794,0
+"environment","Attribute","ROT","rotations",22,0.2139,0
+"environment","Attribute","SUB","subsidies",12,0.1921,0
+"human condition","Mechanism","3","farm diversification",97,0.4362,53.5
+"human condition","Mechanism","1","knowledge intensity change",82,0.3999,36.5
+"human condition","Mechanism","2","labour intensity",32,0.2487,2
+"human condition","Attribute","AGR","agroforestry",10,0.2156,0
+"human condition","Attribute","CAP","capacity building",8,0.2353,0
+"human condition","Attribute","CON","conservation agriculture",21,0.2875,0
+"human condition","Attribute","CRO","crop diversification",18,0.298,0
+"human condition","Attribute","EXT","extension services",15,0.2658,0
+"human condition","Attribute","FER","fertilizer use",20,0.2786,0
+"human condition","Attribute","INO","inorganic fertilizer",14,0.2605,0
+"human condition","Attribute","INT","intercropping",13,0.2519,0
+"human condition","Attribute","LAB","labor dynamics",30,0.2918,11
+"human condition","Attribute","LEG","legume integration",32,0.3582,6
+"human condition","Attribute","LIV","livestock integration",5,0.1964,0
+"human condition","Attribute","MAR","market access",15,0.2658,0
+"human condition","Attribute","ROT","rotations",10,0.2708,0
+"productivity","Mechanism","1","capital intensity",51,0.2123,11.5
+"productivity","Mechanism","4","crop/breed change and product differentiation",83,0.2555,34.5
+"productivity","Mechanism","3","farm specialisation",63,0.2213,5
+"productivity","Mechanism","2","input-use intensity",107,0.2977,92
+"productivity","Attribute","AGR","agroforestry",6,0.1573,0
+"productivity","Attribute","CAP","capacity building",14,0.1578,0
+"productivity","Attribute","CON","conservation agriculture",20,0.1952,0
+"productivity","Attribute","CRE","credit access",20,0.1685,0
+"productivity","Attribute","CRO","crop diversification",21,0.1947,0
+"productivity","Attribute","EXT","extension services",23,0.1887,0
+"productivity","Attribute","FER","fertilizer use",38,0.2449,0
+"productivity","Attribute","IMP","improved varieties",4,0.1188,0
+"productivity","Attribute","INO","inorganic fertilizer",7,0.1686,0
+"productivity","Attribute","INT","intercropping",10,0.1645,0
+"productivity","Attribute","LAB","labor dynamics",38,0.2435,12
+"productivity","Attribute","LEG","legume integration",32,0.2442,17
+"productivity","Attribute","LIV","livestock integration",10,0.1398,0
+"productivity","Attribute","MAR","market access",25,0.1846,0
+"productivity","Attribute","ROT","rotations",17,0.189,0
+"productivity","Attribute","SUB","subsidies",19,0.1876,0
+"social","Mechanism","3","cooperation",15,0.1709,0
+"social","Mechanism","5","farm consolidation or fragmentation",5,0.127,0
+"social","Mechanism","2","improved information management",43,0.2046,0
+"social","Mechanism","6","income diversification",29,0.1825,2
+"social","Mechanism","1","knowledge intensity change",82,0.2997,109
+"social","Mechanism","4","vertical integration",11,0.1418,16
+"social","Attribute","AGR","agroforestry",5,0.153,0
+"social","Attribute","CAP","capacity building",20,0.2021,0
+"social","Attribute","CON","conservation agriculture",6,0.1666,0
+"social","Attribute","CRO","crop diversification",20,0.1934,0
+"social","Attribute","EXT","extension services",16,0.2042,0
+"social","Attribute","FER","fertilizer use",13,0.1739,0
+"social","Attribute","INO","inorganic fertilizer",7,0.1779,0
+"social","Attribute","INT","intercropping",11,0.1728,0
+"social","Attribute","LAB","labor dynamics",27,0.2138,22
+"social","Attribute","LEG","legume integration",25,0.224,11
+"social","Attribute","MAR","market access",29,0.2351,43
+"social","Attribute","SUB","subsidies",6,0.1029,0
