@@ -4,7 +4,7 @@
 
 ## 📋 Overview
 
-This repository reproduces the analysis associated with the manuscript entitled "Beyond Inputs: A network based meta analysis mapping pathways to Sustainable Intensification in Malawi's smallholder farming systems. The core is a network analysis of Mechanisms and their Attributes across five Sustainable Intensification (SI) domains. Read associated paper for further details.
+This repository reproduces the analysis associated with the manuscript entitled **Beyond Inputs: A network based meta analysis mapping pathways to Sustainable Intensification in Malawi's smallholder farming systems**. The core is a network analysis of Mechanisms and their Attributes across five Sustainable Intensification (SI) domains. Read associated paper for further details.
 
 
 ## 📁 Project Structure
@@ -27,6 +27,7 @@ pathways_sustainable_intensification_Malawi/
 ## 🔧 Installation and use
 Software requirements: R >= 4.3.3 
 A list of required R packages can be found at the top of each script.
+It is advised to fork the repository and clone it to a local computer where scripts can run smoothly.
 
 
 ## 📚 Citation
